@@ -1,0 +1,167 @@
+admm iter=1 fp_residual=2.078188224 primal_inf=0.4151922738 input_violation=0.4151922738 epoch=0 epoch_step=0
+admm iter=10 fp_residual=0.1087345697 primal_inf=0.06152808992 input_violation=0.06152808992 epoch=0 epoch_step=9
+admm iter=20 fp_residual=0.02067026659 primal_inf=0.01040473246 input_violation=0.01040473246 epoch=0 epoch_step=19
+admm iter=30 fp_residual=0.004817866683 primal_inf=0.002350549496 input_violation=0.002350549496 epoch=0 epoch_step=29
+admm iter=40 fp_residual=0.001125737618 primal_inf=0.0005477156162 input_violation=0.0005477156162 epoch=0 epoch_step=39
+admm iter=50 fp_residual=0.0002630407885 primal_inf=0.0001279511847 input_violation=0.0001279511847 epoch=0 epoch_step=49
+admm iter=60 fp_residual=6.146230005e-05 primal_inf=2.98966317e-05 input_violation=2.98966317e-05 epoch=0 epoch_step=59
+admm iter=70 fp_residual=1.436132465e-05 primal_inf=6.98565818e-06 input_violation=6.98565818e-06 epoch=0 epoch_step=69
+admm iter=80 fp_residual=3.355677298e-06 primal_inf=1.632273656e-06 input_violation=1.632273656e-06 epoch=0 epoch_step=79
+admm iter=90 fp_residual=7.840899355e-07 primal_inf=3.813982161e-07 input_violation=3.813982161e-07 epoch=0 epoch_step=89
+admm iter=100 fp_residual=1.832110097e-07 primal_inf=8.911777716e-08 input_violation=8.911777716e-08 epoch=0 epoch_step=99
+admm iter=110 fp_residual=4.280921496e-08 primal_inf=2.082332484e-08 input_violation=2.082332484e-08 epoch=0 epoch_step=109
+admm iter=120 fp_residual=1.000283004e-08 primal_inf=4.865589931e-09 input_violation=4.865589931e-09 epoch=0 epoch_step=119
+admm iter=130 fp_residual=2.337268902e-09 primal_inf=1.136898131e-09 input_violation=1.136898131e-09 epoch=0 epoch_step=129
+admm iter=140 fp_residual=5.461305446e-10 primal_inf=2.656499465e-10 input_violation=2.656499465e-10 epoch=0 epoch_step=139
+admm iter=150 fp_residual=1.276087623e-10 primal_inf=6.207212522e-11 input_violation=6.207212522e-11 epoch=0 epoch_step=149
+admm iter=160 fp_residual=2.981860483e-11 primal_inf=1.450395359e-11 input_violation=1.450395359e-11 epoch=0 epoch_step=159
+admm iter=170 fp_residual=6.963305082e-12 primal_inf=3.38928885e-12 input_violation=3.38928885e-12 epoch=0 epoch_step=169
+admm iter=180 fp_residual=1.630713848e-12 primal_inf=7.929212842e-13 input_violation=7.929212842e-13 epoch=0 epoch_step=179
+admm iter=190 fp_residual=3.823793298e-13 primal_inf=1.856292897e-13 input_violation=1.856292897e-13 epoch=0 epoch_step=189
+admm iter=200 fp_residual=9.004473261e-14 primal_inf=4.196643033e-14 input_violation=4.196643033e-14 epoch=0 epoch_step=199
+halpern iter=1 fp_residual=2.078188224 primal_inf=0.4151922738 input_violation=0.4151922738 epoch=0 epoch_step=0
+halpern iter=10 fp_residual=0.3436567737 primal_inf=0.1961737447 input_violation=0.1961737447 epoch=0 epoch_step=9
+halpern iter=20 fp_residual=0.1908529602 primal_inf=0.1111870843 input_violation=0.1111870843 epoch=0 epoch_step=19
+halpern iter=30 fp_residual=0.1294751401 primal_inf=0.07557747258 input_violation=0.07557747258 epoch=0 epoch_step=29
+halpern iter=40 fp_residual=0.09739303142 primal_inf=0.05686756823 input_violation=0.05686756823 epoch=0 epoch_step=39
+halpern iter=50 fp_residual=0.07795336986 primal_inf=0.04551908394 input_violation=0.04551908394 epoch=0 epoch_step=49
+halpern iter=60 fp_residual=0.06496664809 primal_inf=0.03793610829 input_violation=0.03793610829 epoch=0 epoch_step=59
+halpern iter=70 fp_residual=0.05568649909 primal_inf=0.03251717875 input_violation=0.03251717875 epoch=0 epoch_step=69
+halpern iter=80 fp_residual=0.04891969014 primal_inf=0.02860005878 input_violation=0.02860005878 epoch=0 epoch_step=79
+halpern iter=90 fp_residual=0.04357587522 primal_inf=0.02548111036 input_violation=0.02548111036 epoch=0 epoch_step=89
+halpern iter=100 fp_residual=0.03923810484 primal_inf=0.02294575356 input_violation=0.02294575356 epoch=0 epoch_step=99
+halpern iter=110 fp_residual=0.03567522343 primal_inf=0.0208624918 input_violation=0.0208624918 epoch=0 epoch_step=109
+halpern iter=120 fp_residual=0.03270319201 primal_inf=0.01912453263 input_violation=0.01912453263 epoch=0 epoch_step=119
+halpern iter=130 fp_residual=0.03018775681 primal_inf=0.01765354023 input_violation=0.01765354023 epoch=0 epoch_step=129
+halpern iter=140 fp_residual=0.02803153077 primal_inf=0.0163926003 input_violation=0.0163926003 epoch=0 epoch_step=139
+halpern iter=150 fp_residual=0.02616277127 primal_inf=0.01529976622 input_violation=0.01529976622 epoch=0 epoch_step=149
+halpern iter=160 fp_residual=0.02452760009 primal_inf=0.01434353213 input_violation=0.01434353213 epoch=0 epoch_step=159
+halpern iter=170 fp_residual=0.02308480053 primal_inf=0.01349979523 input_violation=0.01349979523 epoch=0 epoch_step=169
+halpern iter=180 fp_residual=0.02180231171 primal_inf=0.01274980667 input_violation=0.01274980667 epoch=0 epoch_step=179
+halpern iter=190 fp_residual=0.02065482164 primal_inf=0.01207876423 input_violation=0.01207876423 epoch=0 epoch_step=189
+halpern iter=200 fp_residual=0.01962208056 primal_inf=0.01147482602 input_violation=0.01147482602 epoch=0 epoch_step=199
+halpern_restart iter=1 fp_residual=2.078188224 primal_inf=0.4151922738 input_violation=0.4151922738 epoch=0 epoch_step=0
+halpern_restart iter=3 fp_residual=0.8309678131 primal_inf=0.3605701945 input_violation=0.3605701945 epoch=0 epoch_step=2 <RESTART>
+halpern_restart iter=6 fp_residual=0.3438905594 primal_inf=0.238003599 input_violation=0.238003599 epoch=1 epoch_step=2 <RESTART>
+halpern_restart iter=9 fp_residual=0.2350345608 primal_inf=0.151353616 input_violation=0.151353616 epoch=2 epoch_step=2 <RESTART>
+halpern_restart iter=10 fp_residual=0.1952455876 primal_inf=0.1211632091 input_violation=0.1211632091 epoch=3 epoch_step=0
+halpern_restart iter=12 fp_residual=0.1643096386 primal_inf=0.09933698699 input_violation=0.09933698699 epoch=3 epoch_step=2 <RESTART>
+halpern_restart iter=15 fp_residual=0.1155827279 primal_inf=0.06658185155 input_violation=0.06658185155 epoch=4 epoch_step=2 <RESTART>
+halpern_restart iter=18 fp_residual=0.08162165351 primal_inf=0.04537339756 input_violation=0.04537339756 epoch=5 epoch_step=2 <RESTART>
+halpern_restart iter=20 fp_residual=0.06271182011 primal_inf=0.03414491308 input_violation=0.03414491308 epoch=6 epoch_step=1
+halpern_restart iter=21 fp_residual=0.05775102976 primal_inf=0.03129839587 input_violation=0.03129839587 epoch=6 epoch_step=2 <RESTART>
+halpern_restart iter=24 fp_residual=0.04092379186 primal_inf=0.02183506813 input_violation=0.02183506813 epoch=7 epoch_step=2 <RESTART>
+halpern_restart iter=27 fp_residual=0.03019048755 primal_inf=0.01568862243 input_violation=0.01568862243 epoch=8 epoch_step=2 <RESTART>
+halpern_restart iter=30 fp_residual=0.02259655016 primal_inf=0.01149524119 input_violation=0.01149524119 epoch=9 epoch_step=2 <RESTART>
+halpern_restart iter=33 fp_residual=0.01697275755 primal_inf=0.008503698325 input_violation=0.008503698325 epoch=10 epoch_step=2 <RESTART>
+halpern_restart iter=36 fp_residual=0.01276742506 primal_inf=0.00633064831 input_violation=0.00633064831 epoch=11 epoch_step=2 <RESTART>
+halpern_restart iter=39 fp_residual=0.009609734984 primal_inf=0.004732323064 input_violation=0.004732323064 epoch=12 epoch_step=2 <RESTART>
+halpern_restart iter=40 fp_residual=0.008308609902 primal_inf=0.004080603316 input_violation=0.004080603316 epoch=13 epoch_step=0
+halpern_restart iter=42 fp_residual=0.007234702461 primal_inf=0.00354688584 input_violation=0.00354688584 epoch=13 epoch_step=2 <RESTART>
+halpern_restart iter=45 fp_residual=0.005447147817 primal_inf=0.00266288009 input_violation=0.00266288009 epoch=14 epoch_step=2 <RESTART>
+halpern_restart iter=48 fp_residual=0.004101404593 primal_inf=0.002001340597 input_violation=0.002001340597 epoch=15 epoch_step=2 <RESTART>
+halpern_restart iter=50 fp_residual=0.003306469815 primal_inf=0.001611898088 input_violation=0.001611898088 epoch=16 epoch_step=1
+halpern_restart iter=51 fp_residual=0.003088173175 primal_inf=0.001505168977 input_violation=0.001505168977 epoch=16 epoch_step=2 <RESTART>
+halpern_restart iter=54 fp_residual=0.002325266196 primal_inf=0.001132494776 input_violation=0.001132494776 epoch=17 epoch_step=2 <RESTART>
+halpern_restart iter=57 fp_residual=0.001750831584 primal_inf=0.0008523250532 input_violation=0.0008523250532 epoch=18 epoch_step=2 <RESTART>
+halpern_restart iter=60 fp_residual=0.001318306063 primal_inf=0.0006415772565 input_violation=0.0006415772565 epoch=19 epoch_step=2 <RESTART>
+halpern_restart iter=63 fp_residual=0.0009926317204 primal_inf=0.000482991897 input_violation=0.000482991897 epoch=20 epoch_step=2 <RESTART>
+halpern_restart iter=66 fp_residual=0.0007474119328 primal_inf=0.0003636306942 input_violation=0.0003636306942 epoch=21 epoch_step=2 <RESTART>
+halpern_restart iter=69 fp_residual=0.0005627712169 primal_inf=0.0002737789489 input_violation=0.0002737789489 epoch=22 epoch_step=2 <RESTART>
+halpern_restart iter=70 fp_residual=0.0004866205842 primal_inf=0.0002367261811 input_violation=0.0002367261811 epoch=23 epoch_step=0
+halpern_restart iter=72 fp_residual=0.0004237441385 primal_inf=0.0002061348675 input_violation=0.0002061348675 epoch=23 epoch_step=2 <RESTART>
+halpern_restart iter=75 fp_residual=0.0003190623162 primal_inf=0.0001552066674 input_violation=0.0001552066674 epoch=24 epoch_step=2 <RESTART>
+halpern_restart iter=78 fp_residual=0.0002402411023 primal_inf=0.0001168621926 input_violation=0.0001168621926 epoch=25 epoch_step=2 <RESTART>
+halpern_restart iter=80 fp_residual=0.0001936786156 primal_inf=9.421155208e-05 input_violation=9.421155208e-05 epoch=26 epoch_step=1
+halpern_restart iter=81 fp_residual=0.0001808918926 primal_inf=8.799149179e-05 input_violation=8.799149179e-05 epoch=26 epoch_step=2 <RESTART>
+halpern_restart iter=84 fp_residual=0.0001362043219 primal_inf=6.625356031e-05 input_violation=6.625356031e-05 epoch=27 epoch_step=2 <RESTART>
+halpern_restart iter=87 fp_residual=0.0001025563772 primal_inf=4.988603133e-05 input_violation=4.988603133e-05 epoch=28 epoch_step=2 <RESTART>
+halpern_restart iter=90 fp_residual=7.722082757e-05 primal_inf=3.756206349e-05 input_violation=3.756206349e-05 epoch=29 epoch_step=2 <RESTART>
+halpern_restart iter=93 fp_residual=5.814417744e-05 primal_inf=2.828266994e-05 input_violation=2.828266994e-05 epoch=30 epoch_step=2 <RESTART>
+halpern_restart iter=96 fp_residual=4.378022705e-05 primal_inf=2.129568767e-05 input_violation=2.129568767e-05 epoch=31 epoch_step=2 <RESTART>
+halpern_restart iter=99 fp_residual=3.296475009e-05 primal_inf=1.603478427e-05 input_violation=1.603478427e-05 epoch=32 epoch_step=2 <RESTART>
+halpern_restart iter=100 fp_residual=2.85041672e-05 primal_inf=1.386505403e-05 input_violation=1.386505403e-05 epoch=33 epoch_step=0
+halpern_restart iter=102 fp_residual=2.482113093e-05 primal_inf=1.207354191e-05 input_violation=1.207354191e-05 epoch=33 epoch_step=2 <RESTART>
+halpern_restart iter=105 fp_residual=1.868931323e-05 primal_inf=9.090888725e-06 input_violation=9.090888725e-06 epoch=34 epoch_step=2 <RESTART>
+halpern_restart iter=108 fp_residual=1.407230114e-05 primal_inf=6.845072266e-06 input_violation=6.845072266e-06 epoch=35 epoch_step=2 <RESTART>
+halpern_restart iter=110 fp_residual=1.134486859e-05 primal_inf=5.518389418e-06 input_violation=5.518389418e-06 epoch=36 epoch_step=1
+halpern_restart iter=111 fp_residual=1.059587674e-05 primal_inf=5.154063478e-06 input_violation=5.154063478e-06 epoch=36 epoch_step=2 <RESTART>
+halpern_restart iter=114 fp_residual=7.978268996e-06 primal_inf=3.880802203e-06 input_violation=3.880802203e-06 epoch=37 epoch_step=2 <RESTART>
+halpern_restart iter=117 fp_residual=6.007315654e-06 primal_inf=2.922087825e-06 input_violation=2.922087825e-06 epoch=38 epoch_step=2 <RESTART>
+halpern_restart iter=120 fp_residual=4.523267055e-06 primal_inf=2.20021453e-06 input_violation=2.20021453e-06 epoch=39 epoch_step=2 <RESTART>
+halpern_restart iter=123 fp_residual=3.405838157e-06 primal_inf=1.656673015e-06 input_violation=1.656673015e-06 epoch=40 epoch_step=2 <RESTART>
+halpern_restart iter=126 fp_residual=2.564459141e-06 primal_inf=1.247408131e-06 input_violation=1.247408131e-06 epoch=41 epoch_step=2 <RESTART>
+halpern_restart iter=129 fp_residual=1.930934585e-06 primal_inf=9.392481424e-07 input_violation=9.392481424e-07 epoch=42 epoch_step=2 <RESTART>
+halpern_restart iter=130 fp_residual=1.669652645e-06 primal_inf=8.121549795e-07 input_violation=8.121549795e-07 epoch=43 epoch_step=0
+halpern_restart iter=132 fp_residual=1.453916076e-06 primal_inf=7.072160686e-07 input_violation=7.072160686e-07 epoch=43 epoch_step=2 <RESTART>
+halpern_restart iter=135 fp_residual=1.094740324e-06 primal_inf=5.325052492e-07 input_violation=5.325052492e-07 epoch=44 epoch_step=2 <RESTART>
+halpern_restart iter=138 fp_residual=8.242954296e-07 primal_inf=4.009550338e-07 input_violation=4.009550338e-07 epoch=45 epoch_step=2 <RESTART>
+halpern_restart iter=140 fp_residual=6.64534055e-07 primal_inf=3.232436636e-07 input_violation=3.232436636e-07 epoch=46 epoch_step=1
+halpern_restart iter=141 fp_residual=6.206613055e-07 primal_inf=3.019030146e-07 input_violation=3.019030146e-07 epoch=46 epoch_step=2 <RESTART>
+halpern_restart iter=144 fp_residual=4.673329982e-07 primal_inf=2.273208277e-07 input_violation=2.273208277e-07 epoch=47 epoch_step=2 <RESTART>
+halpern_restart iter=147 fp_residual=3.518829477e-07 primal_inf=1.711634368e-07 input_violation=1.711634368e-07 epoch=48 epoch_step=2 <RESTART>
+halpern_restart iter=150 fp_residual=2.649537074e-07 primal_inf=1.288791835e-07 input_violation=1.288791835e-07 epoch=49 epoch_step=2 <RESTART>
+halpern_restart iter=153 fp_residual=1.994994838e-07 primal_inf=9.70408407e-08 input_violation=9.70408407e-08 epoch=50 epoch_step=2 <RESTART>
+halpern_restart iter=156 fp_residual=1.5021509e-07 primal_inf=7.306785155e-08 input_violation=7.306785155e-08 epoch=51 epoch_step=2 <RESTART>
+halpern_restart iter=159 fp_residual=1.13105918e-07 primal_inf=5.501715195e-08 input_violation=5.501715195e-08 epoch=52 epoch_step=2 <RESTART>
+halpern_restart iter=160 fp_residual=9.780113751e-08 primal_inf=4.757257788e-08 input_violation=4.757257788e-08 epoch=53 epoch_step=0
+halpern_restart iter=162 fp_residual=8.516420815e-08 primal_inf=4.142570309e-08 input_violation=4.142570309e-08 epoch=53 epoch_step=2 <RESTART>
+halpern_restart iter=165 fp_residual=6.412522402e-08 primal_inf=3.119188796e-08 input_violation=3.119188796e-08 epoch=54 epoch_step=2 <RESTART>
+halpern_restart iter=168 fp_residual=4.828371652e-08 primal_inf=2.348624006e-08 input_violation=2.348624006e-08 epoch=55 epoch_step=2 <RESTART>
+halpern_restart iter=170 fp_residual=3.892557325e-08 primal_inf=1.893423551e-08 input_violation=1.893423551e-08 epoch=56 epoch_step=1
+halpern_restart iter=171 fp_residual=3.635569362e-08 primal_inf=1.768419322e-08 input_violation=1.768419322e-08 epoch=56 epoch_step=2 <RESTART>
+halpern_restart iter=174 fp_residual=2.737437509e-08 primal_inf=1.331548471e-08 input_violation=1.331548471e-08 epoch=57 epoch_step=2 <RESTART>
+halpern_restart iter=177 fp_residual=2.061180094e-08 primal_inf=1.002602135e-08 input_violation=1.002602135e-08 epoch=58 epoch_step=2 <RESTART>
+halpern_restart iter=180 fp_residual=1.551985914e-08 primal_inf=7.549192826e-09 input_violation=7.549192826e-09 epoch=59 epoch_step=2 <RESTART>
+halpern_restart iter=183 fp_residual=1.168582781e-08 primal_inf=5.684235971e-09 input_violation=5.684235971e-09 epoch=60 epoch_step=2 <RESTART>
+halpern_restart iter=186 fp_residual=8.798959068e-09 primal_inf=4.280003907e-09 input_violation=4.280003907e-09 epoch=61 epoch_step=2 <RESTART>
+halpern_restart iter=189 fp_residual=6.625262302e-09 primal_inf=3.222670353e-09 input_violation=3.222670353e-09 epoch=62 epoch_step=2 <RESTART>
+halpern_restart iter=190 fp_residual=5.728774636e-09 primal_inf=2.786598952e-09 input_violation=2.786598952e-09 epoch=63 epoch_step=0
+halpern_restart iter=192 fp_residual=4.988556034e-09 primal_inf=2.42654119e-09 input_violation=2.42654119e-09 epoch=63 epoch_step=2 <RESTART>
+halpern_restart iter=195 fp_residual=3.75618155e-09 primal_inf=1.827086482e-09 input_violation=1.827086482e-09 epoch=64 epoch_step=2 <RESTART>
+halpern_restart iter=198 fp_residual=2.828254205e-09 primal_inf=1.375724423e-09 input_violation=1.375724423e-09 epoch=65 epoch_step=2 <RESTART>
+halpern_restart iter=200 fp_residual=2.280092385e-09 primal_inf=1.109086156e-09 input_violation=1.109086156e-09 epoch=66 epoch_step=1
+halpern_adaptive iter=1 fp_residual=2.078188224 primal_inf=0.4151922738 input_violation=0.4151922738 epoch=0 epoch_step=0
+halpern_adaptive iter=3 fp_residual=0.8309678131 primal_inf=0.3605701945 input_violation=0.3605701945 epoch=0 epoch_step=2 <RESTART>
+halpern_adaptive iter=10 fp_residual=0.2465047272 primal_inf=0.1637614656 input_violation=0.1637614656 epoch=1 epoch_step=6
+halpern_adaptive iter=18 fp_residual=0.1485154768 primal_inf=0.09523747284 input_violation=0.09523747284 epoch=1 epoch_step=14 <RESTART>
+halpern_adaptive iter=20 fp_residual=0.1135156423 primal_inf=0.06896012955 input_violation=0.06896012955 epoch=2 epoch_step=1
+halpern_adaptive iter=30 fp_residual=0.05538328267 primal_inf=0.03171751943 input_violation=0.03171751943 epoch=2 epoch_step=11
+halpern_adaptive iter=34 fp_residual=0.04427955014 primal_inf=0.0252704823 input_violation=0.0252704823 epoch=2 epoch_step=15 <RESTART>
+halpern_adaptive iter=40 fp_residual=0.02647502547 primal_inf=0.01415702966 input_violation=0.01415702966 epoch=3 epoch_step=5
+halpern_adaptive iter=50 fp_residual=0.01532371052 primal_inf=0.007995266171 input_violation=0.007995266171 epoch=3 epoch_step=15
+halpern_adaptive iter=53 fp_residual=0.01339367979 primal_inf=0.006972570287 input_violation=0.006972570287 epoch=3 epoch_step=18 <RESTART>
+halpern_adaptive iter=60 fp_residual=0.007784131634 primal_inf=0.003915525636 input_violation=0.003915525636 epoch=4 epoch_step=6
+halpern_adaptive iter=70 fp_residual=0.004593558506 primal_inf=0.00229141315 input_violation=0.00229141315 epoch=4 epoch_step=16
+halpern_adaptive iter=72 fp_residual=0.004205590162 primal_inf=0.002096751831 input_violation=0.002096751831 epoch=4 epoch_step=18 <RESTART>
+halpern_adaptive iter=80 fp_residual=0.002308682303 primal_inf=0.001135618617 input_violation=0.001135618617 epoch=5 epoch_step=7
+halpern_adaptive iter=90 fp_residual=0.001383477383 primal_inf=0.000678812857 input_violation=0.000678812857 epoch=5 epoch_step=17
+halpern_adaptive iter=91 fp_residual=0.001324632145 primal_inf=0.0006498826495 input_violation=0.0006498826495 epoch=5 epoch_step=18 <RESTART>
+halpern_adaptive iter=100 fp_residual=0.0006863455371 primal_inf=0.000335082127 input_violation=0.000335082127 epoch=6 epoch_step=8
+halpern_adaptive iter=110 fp_residual=0.0004173655492 primal_inf=0.0002036142488 input_violation=0.0002036142488 epoch=6 epoch_step=18 <RESTART>
+halpern_adaptive iter=120 fp_residual=0.0002043872632 primal_inf=9.953840503e-05 input_violation=9.953840503e-05 epoch=7 epoch_step=9
+halpern_adaptive iter=129 fp_residual=0.0001315083517 primal_inf=6.403284143e-05 input_violation=6.403284143e-05 epoch=7 epoch_step=18 <RESTART>
+halpern_adaptive iter=130 fp_residual=0.0001137134935 primal_inf=5.535588097e-05 input_violation=5.535588097e-05 epoch=8 epoch_step=0
+halpern_adaptive iter=140 fp_residual=6.096170524e-05 primal_inf=2.966487726e-05 input_violation=2.966487726e-05 epoch=8 epoch_step=10
+halpern_adaptive iter=148 fp_residual=4.143725716e-05 primal_inf=2.016288316e-05 input_violation=2.016288316e-05 epoch=8 epoch_step=18 <RESTART>
+halpern_adaptive iter=150 fp_residual=3.340607381e-05 primal_inf=1.625330766e-05 input_violation=1.625330766e-05 epoch=9 epoch_step=1
+halpern_adaptive iter=160 fp_residual=1.821111022e-05 primal_inf=8.859440949e-06 input_violation=8.859440949e-06 epoch=9 epoch_step=11
+halpern_adaptive iter=167 fp_residual=1.305655129e-05 primal_inf=6.351729142e-06 input_violation=6.351729142e-06 epoch=9 epoch_step=18 <RESTART>
+halpern_adaptive iter=170 fp_residual=9.83105889e-06 primal_inf=4.782390526e-06 input_violation=4.782390526e-06 epoch=10 epoch_step=2
+halpern_adaptive iter=180 fp_residual=5.44849824e-06 primal_inf=2.650382517e-06 input_violation=2.650382517e-06 epoch=10 epoch_step=12
+halpern_adaptive iter=186 fp_residual=4.114014665e-06 primal_inf=2.001224847e-06 input_violation=2.001224847e-06 epoch=10 epoch_step=18 <RESTART>
+halpern_adaptive iter=190 fp_residual=2.898229082e-06 primal_inf=1.409793349e-06 input_violation=1.409793349e-06 epoch=11 epoch_step=3
+halpern_adaptive iter=200 fp_residual=1.632535619e-06 primal_inf=7.941120046e-07 input_violation=7.941120046e-07 epoch=11 epoch_step=13
+
+--- Fixed Cartpole QP, tolerance = 0.0001, fixed K = 2, adaptive initial epoch = 2 ---
+admm: first=2.078188224 first_below_tol=57 final=9.004473261e-14 input_violation_steps=146 restarts=0 first_restart_eval=-1 bad_adaptive_restarts=0
+halpern: first=2.078188224 first_below_tol=-1 final=0.01962208056 input_violation_steps=200 restarts=0 first_restart_eval=-1 bad_adaptive_restarts=0
+halpern_restart: first=2.078188224 first_below_tol=88 final=2.280092385e-09 input_violation_steps=200 restarts=66 first_restart_eval=3 bad_adaptive_restarts=0
+  restart evaluations: 3 6 9 12 15 18 21 24 27 30 33 36 39 42 45 48 51 54 57 60 63 66 69 72 75 78 81 84 87 90 93 96 99 102 105 108 111 114 117 120 123 126 129 132 135 138 141 144 147 150 153 156 159 162 165 168 171 174 177 180 183 186 189 192 195 198
+halpern_adaptive: first=2.078188224 first_below_tol=132 final=1.632535619e-06 input_violation_steps=200 restarts=11 first_restart_eval=3 bad_adaptive_restarts=0
+  restart evaluations: 3 18 34 53 72 91 110 129 148 167 186
+First-evaluation residual disagreement: 0
+Max Halpern/restart disagreement through eval 3: 0
+First restart: expected eval=3, observed=3
+Max Halpern/adaptive disagreement through eval 3: 0
+Saved result/cartpole_adaptive_K2_init2.csv
