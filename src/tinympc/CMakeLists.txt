@@ -1,10 +1,16 @@
 add_library(tinympcstatic STATIC
     admm.cpp
     halpern.cpp
+    halpern_restart.cpp
     tiny_api.cpp
-    codegen.cpp
     rho_benchmark.cpp
 )
+
+# codegen.cpp uses POSIX headers unavailable in MSVC.
+# It is not needed for the Cartpole convergence benchmark.
+if(NOT WIN32)
+    target_sources(tinympcstatic PRIVATE codegen.cpp)
+endif()
 
 set_property(TARGET tinympcstatic PROPERTY POSITION_INDEPENDENT_CODE ON)
 
