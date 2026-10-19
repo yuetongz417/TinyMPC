@@ -1,5 +1,6 @@
 add_library(tinympcstatic STATIC
     admm.cpp
+    halpern.cpp
     tiny_api.cpp
     codegen.cpp
     rho_benchmark.cpp

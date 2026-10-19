@@ -12,7 +12,7 @@
 #include <iostream>
 
 #include <tinympc/tiny_api.hpp>
-
+#include <tinympc/halpern.hpp>
 
 #define NSTATES 4
 #define NINPUTS 1
@@ -77,7 +77,18 @@ int main()
         tiny_set_x0(solver, x0);
 
         // 2. Solve MPC problem
-        tiny_solve(solver);
+        // tiny_solve(solver);
+
+        // Or: call Halpern solver 
+        solver->settings->adaptive_rho = 0;  // Disable adaptive rho for Halpern
+        
+        int status = tiny_solve_halpern(solver);
+
+        std::cout << "MPC step: " << k
+                << ", status: " << status
+                << ", iterations: "
+                << solver->solution->iter
+                << std::endl;
 
         // 3. Simulate forward
         x0 = work->Adyn * x0 + work->Bdyn * work->u.col(0);
