@@ -3,6 +3,8 @@
 //   2. Halpern ADMM (no restart)
 //   3. Halpern ADMM with fixed-frequency restart
 //   4. Halpern ADMM with residual-triggered adaptive restart
+//   5. Reflected Halpern ADMM with fixed-frequency restart
+//   6. Reflected Halpern ADMM with residual-triggered adaptive restart
 //
 // All methods solve the SAME fixed QP from independently initialized states.
 // They run the same number of raw ADMM operator evaluations (no early stop).
@@ -15,6 +17,7 @@
 #include <tinympc/admm.hpp>
 #include <tinympc/halpern_restart.hpp>
 #include <tinympc/halpern_adaptive.hpp>
+#include <tinympc/halpern_reflected.hpp>
 
 #include <algorithm>
 #include <cmath>
@@ -23,6 +26,7 @@
 #include <iomanip>
 #include <iostream>
 #include <string>
+#include <sstream>
 #include <vector>
 
 #define NSTATES 4
@@ -38,6 +42,7 @@ constexpr tinytype INPUT_LIMIT = 0.5;
 constexpr tinytype FP_TOL = 1e-4;
 constexpr int DEFAULT_RESTART_K = 2;
 constexpr int DEFAULT_INITIAL_EPOCH_STEPS = 2;
+constexpr tinytype DEFAULT_REFLECTION_GAMMA = 1.0;
 
 struct ADMMState {
     tinyMatrix v, z, g, y;
@@ -139,6 +144,7 @@ struct TraceContext {
     std::string method;
     RunSummary summary;
     tinytype epoch_start_residual = 0;
+    tinytype reflection_gamma = tinytype(0.5);
 };
 
 // Same CSV measurement for ALL methods. The restart solver copies its
@@ -157,6 +163,9 @@ void record_evaluation(TinySolver* solver, TraceContext& ctx,
         tinytype(0), w->u.cwiseAbs().maxCoeff() - INPUT_LIMIT);
     const tinytype max_abs_projected_input =
         w->znew.cwiseAbs().maxCoeff();
+    // The accepted *input* slack can lie outside the box under reflection.
+    const tinytype max_abs_accepted_input_slack =
+        w->z.cwiseAbs().maxCoeff();
 
     RunSummary& s = ctx.summary;
     // At epoch_step=0, this is ||T(anchor)-anchor|| exactly.
@@ -173,7 +182,8 @@ void record_evaluation(TinySolver* solver, TraceContext& ctx,
     if (restart_now) {
         ++s.restart_count;
         s.restart_evals.push_back(eval);
-        if (ctx.method == "halpern_adaptive" && epoch > 0 &&
+        if ((ctx.method == "halpern_adaptive" ||
+             ctx.method == "halpern_reflected_adaptive") && epoch > 0 &&
             ratio > std::exp(tinytype(-1)) + tinytype(1e-10))
             ++s.bad_adaptive_restarts;
         if (s.first_restart_eval < 0)
@@ -185,7 +195,10 @@ void record_evaluation(TinySolver* solver, TraceContext& ctx,
                << input_violation << ',' << max_abs_projected_input << ','
                << epoch << ',' << epoch_step << ','
                << (restart_now ? 1 : 0) << ','
-               << ctx.epoch_start_residual << ',' << ratio << '\n';
+               << ctx.epoch_start_residual << ',' << ratio << ','
+               << ctx.reflection_gamma << ','
+               << (tinytype(2) * ctx.reflection_gamma * residual) << ','
+               << max_abs_accepted_input_slack << '\n';
 
     if (eval == 1 || eval % 10 == 0 || eval == NUM_ITERATIONS || restart_now) {
         std::cout << ctx.method << " iter=" << eval
@@ -254,14 +267,15 @@ void print_summary(const TraceContext& ctx) {
 }
 
 int main(int argc, char** argv) {
-    // Optional argument: K, the number of Halpern updates per epoch.
+    // [K] [first_epoch_updates] [reflection_gamma] (0.5 = T, 1 = 2T-I).
     int K = DEFAULT_RESTART_K;
     int first_epoch_steps = DEFAULT_INITIAL_EPOCH_STEPS;
+    tinytype reflection_gamma = DEFAULT_REFLECTION_GAMMA;
     if (argc > 1) {
         char* end = nullptr;
         const long value = std::strtol(argv[1], &end, 10);
         if (end == argv[1] || *end != '\0' || value < 1 || value > 100000) {
-            std::cerr << "Usage: cartpole_example_modified [positive_K] [positive_initial_epoch_steps]\n";
+            std::cerr << "Usage: cartpole_example_modified [positive_K] [positive_initial_epoch_steps] [gamma_0.5_to_1]\n";
             return 1;
         }
         K = static_cast<int>(value);
@@ -271,20 +285,35 @@ int main(int argc, char** argv) {
         const long value = std::strtol(argv[2], &end, 10);
         if (end == argv[2] || *end != '\0' || value < 1 || value > 100000) {
             std::cerr << "Usage: cartpole_example_modified [positive_K] "
-                         "[positive_initial_epoch_steps]\n";
+                         "[positive_initial_epoch_steps] [gamma_0.5_to_1]\n";
             return 1;
         }
         first_epoch_steps = static_cast<int>(value);
     }
     if (argc > 3) {
-        std::cerr << "Usage: cartpole_example_modified [positive_K] "
-                     "[positive_initial_epoch_steps]\n";
+        char* end = nullptr;
+        const double value = std::strtod(argv[3], &end);
+        if (end == argv[3] || *end != '\0' || !std::isfinite(value) ||
+            value < 0.5 || value > 1.0) {
+            std::cerr << "Usage: cartpole_example_modified [K] [first_epoch] "
+                         "[gamma in 0.5..1]\n";
+            return 1;
+        }
+        reflection_gamma = static_cast<tinytype>(value);
+    }
+    if (argc > 4) {
+        std::cerr << "Usage: cartpole_example_modified [K] [first_epoch] "
+                     "[gamma in 0.5..1]\n";
         return 1;
     }
-
+    std::ostringstream gamma_ss;
+    gamma_ss << std::setprecision(4) << reflection_gamma;
+    std::string gamma_tag = gamma_ss.str();
+    std::replace(gamma_tag.begin(), gamma_tag.end(), '.', 'p');
     const std::string csv_path =
-        "result/cartpole_adaptive_K" + std::to_string(K) +
-        "_init" + std::to_string(first_epoch_steps) + ".csv";
+        "result/cartpole_reflection_K" + std::to_string(K) +
+        "_init" + std::to_string(first_epoch_steps) +
+        "_gamma" + gamma_tag + ".csv";
     std::ofstream csv(csv_path);
     if (!csv) {
         std::cerr << "Cannot open " << csv_path
@@ -295,14 +324,18 @@ int main(int argc, char** argv) {
     std::cout << std::setprecision(10);
     csv << "method,iteration,fp_residual,primal_inf,rho_slack_change_inf,"
            "input_violation,max_abs_projected_input,epoch,epoch_step,restart,"
-           "epoch_start_residual,epoch_residual_ratio\n";
+           "epoch_start_residual,epoch_residual_ratio,"
+           "reflection_gamma,effective_fp_residual,max_abs_accepted_input_slack\n";
 
     TinySolver* admm_solver = make_cartpole_solver();
     TinySolver* halpern_solver = make_cartpole_solver();
     TinySolver* restart_solver = make_cartpole_solver();
     TinySolver* adaptive_solver = make_cartpole_solver();
-    if (!admm_solver || !halpern_solver || !restart_solver || !adaptive_solver) {
-        std::cerr << "Failed to initialize all four solvers.\n";
+    TinySolver* reflected_fixed_solver = make_cartpole_solver();
+    TinySolver* reflected_adaptive_solver = make_cartpole_solver();
+    if (!admm_solver || !halpern_solver || !restart_solver ||
+        !adaptive_solver || !reflected_fixed_solver || !reflected_adaptive_solver) {
+        std::cerr << "Failed to initialize all six solvers.\n";
         return 1;
     }
 
@@ -310,6 +343,12 @@ int main(int argc, char** argv) {
     TraceContext halpern{&csv, "halpern", {}};
     TraceContext restarted{&csv, "halpern_restart", {}};
     TraceContext adaptive{&csv, "halpern_adaptive", {}};
+    TraceContext reflected_fixed{&csv, "halpern_reflected_fixed", {}};
+    TraceContext reflected_adaptive{&csv, "halpern_reflected_adaptive", {}};
+    // gamma=0.5 recovers the ordinary T map. This is for reporting the
+    // effective operator residual (2 gamma ||T(w)-w||).
+    reflected_fixed.reflection_gamma = reflection_gamma;
+    reflected_adaptive.reflection_gamma = reflection_gamma;
 
     trace_iterations(admm_solver, false, admm);
     trace_iterations(halpern_solver, true, halpern);
@@ -335,14 +374,37 @@ int main(int argc, char** argv) {
         return 1;
     }
 
+    // Methods 5 and 6: reflection applied to the *same* TinyMPC ADMM T.
+    // Full reflection gamma=1: R(w) = 2*T(w)-w. Restart uses raw T(w).
+    const int reflected_fixed_status = tiny_solve_halpern_reflected_fixed_restart_trace(
+        reflected_fixed_solver, K, reflection_gamma, 0,
+        restart_trace_callback, &reflected_fixed);
+    if (reflected_fixed_status != 1) {
+        std::cerr << "Unexpected reflected-fixed return code: "
+                  << reflected_fixed_status << '\n';
+        return 1;
+    }
+    const int reflected_adaptive_status =
+        tiny_solve_halpern_reflected_adaptive_restart_trace(
+            reflected_adaptive_solver, first_epoch_steps, reflection_gamma, 0,
+            restart_trace_callback, &reflected_adaptive);
+    if (reflected_adaptive_status != 1) {
+        std::cerr << "Unexpected reflected-adaptive return code: "
+                  << reflected_adaptive_status << '\n';
+        return 1;
+    }
+
     std::cout << "\n--- Fixed Cartpole QP, tolerance = " << FP_TOL
               << ", fixed K = " << K
               << ", adaptive initial epoch = " << first_epoch_steps
+              << ", reflection gamma = " << reflection_gamma
               << " ---\n";
     print_summary(admm);
     print_summary(halpern);
     print_summary(restarted);
     print_summary(adaptive);
+    print_summary(reflected_fixed);
+    print_summary(reflected_adaptive);
 
     // Correctness checks: same T(w0), and identical Halpern path through
     // the first restart-triggering raw T step (eval K+1).
@@ -350,11 +412,17 @@ int main(int argc, char** argv) {
         std::abs(admm.summary.first_residual - halpern.summary.first_residual),
         std::max(
             std::abs(admm.summary.first_residual - restarted.summary.first_residual),
-            std::abs(admm.summary.first_residual - adaptive.summary.first_residual)));
+            std::max(
+                std::abs(admm.summary.first_residual - adaptive.summary.first_residual),
+                std::max(
+                    std::abs(admm.summary.first_residual - reflected_fixed.summary.first_residual),
+                    std::abs(admm.summary.first_residual - reflected_adaptive.summary.first_residual)))));
     if (admm.summary.residuals.size() != NUM_ITERATIONS ||
         halpern.summary.residuals.size() != NUM_ITERATIONS ||
         restarted.summary.residuals.size() != NUM_ITERATIONS ||
-        adaptive.summary.residuals.size() != NUM_ITERATIONS) {
+        adaptive.summary.residuals.size() != NUM_ITERATIONS ||
+        reflected_fixed.summary.residuals.size() != NUM_ITERATIONS ||
+        reflected_adaptive.summary.residuals.size() != NUM_ITERATIONS) {
         std::cerr << "ERROR: missing evaluations in at least one trace.\n";
         return 2;
     }
@@ -394,6 +462,43 @@ int main(int argc, char** argv) {
     }
     if (adaptive.summary.bad_adaptive_restarts != 0) {
         std::cerr << "ERROR: adaptive restart violates 1/e threshold.\n";
+        return 2;
+    }
+    // Reflection begins at evaluation 2. For gamma=1, its first Halpern
+    // update from the anchor is exactly T(anchor), so evaluation 2 must
+    // agree with ordinary ADMM. For gamma=0.5, all trajectories must
+    // agree with their nonreflected counterparts at every evaluation.
+    if (reflection_gamma == tinytype(1) && NUM_ITERATIONS >= 2) {
+        const tinytype reflected_second_difference = std::max(
+            std::abs(admm.summary.residuals[1] - reflected_fixed.summary.residuals[1]),
+            std::abs(admm.summary.residuals[1] - reflected_adaptive.summary.residuals[1]));
+        std::cout << "Full-reflection/ADMM difference at eval 2: "
+                  << reflected_second_difference << '\n';
+        if (reflected_second_difference > 1e-10) {
+            std::cerr << "ERROR: reflection first-step identity failed.\n";
+            return 2;
+        }
+    }
+    if (reflection_gamma == tinytype(0.5)) {
+        tinytype max_fixed_diff = 0, max_adaptive_diff = 0;
+        for (int i = 0; i < NUM_ITERATIONS; ++i) {
+            max_fixed_diff = std::max(max_fixed_diff,
+                std::abs(restarted.summary.residuals[i] -
+                         reflected_fixed.summary.residuals[i]));
+            max_adaptive_diff = std::max(max_adaptive_diff,
+                std::abs(adaptive.summary.residuals[i] -
+                         reflected_adaptive.summary.residuals[i]));
+        }
+        std::cout << "gamma=0.5 regression: max fixed difference = "
+                  << max_fixed_diff << ", max adaptive difference = "
+                  << max_adaptive_diff << '\n';
+        if (max_fixed_diff > 1e-9 || max_adaptive_diff > 1e-9) {
+            std::cerr << "ERROR: gamma=0.5 did not reproduce unreflected solver.\n";
+            return 2;
+        }
+    }
+    if (reflected_adaptive.summary.bad_adaptive_restarts != 0) {
+        std::cerr << "ERROR: reflected adaptive restart violates 1/e criterion.\n";
         return 2;
     }
     std::cout << "Saved " << csv_path << '\n';

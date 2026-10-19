@@ -3,6 +3,7 @@ add_library(tinympcstatic STATIC
     halpern.cpp
     halpern_restart.cpp
     halpern_adaptive.cpp
+    halpern_reflected.cpp
     tiny_api.cpp
     rho_benchmark.cpp
 )
