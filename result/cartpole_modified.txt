@@ -1,0 +1,48 @@
+admm iter=1 fp_residual=2.078188224 primal_inf=0.4151922738 input_violation=0.4151922738
+admm iter=10 fp_residual=0.1087345697 primal_inf=0.06152808992 input_violation=0.06152808992
+admm iter=20 fp_residual=0.02067026659 primal_inf=0.01040473246 input_violation=0.01040473246
+admm iter=30 fp_residual=0.004817866683 primal_inf=0.002350549496 input_violation=0.002350549496
+admm iter=40 fp_residual=0.001125737618 primal_inf=0.0005477156162 input_violation=0.0005477156162
+admm iter=50 fp_residual=0.0002630407885 primal_inf=0.0001279511847 input_violation=0.0001279511847
+admm iter=60 fp_residual=6.146230005e-05 primal_inf=2.98966317e-05 input_violation=2.98966317e-05
+admm iter=70 fp_residual=1.436132465e-05 primal_inf=6.98565818e-06 input_violation=6.98565818e-06
+admm iter=80 fp_residual=3.355677298e-06 primal_inf=1.632273656e-06 input_violation=1.632273656e-06
+admm iter=90 fp_residual=7.840899355e-07 primal_inf=3.813982161e-07 input_violation=3.813982161e-07
+admm iter=100 fp_residual=1.832110097e-07 primal_inf=8.911777716e-08 input_violation=8.911777716e-08
+admm iter=110 fp_residual=4.280921496e-08 primal_inf=2.082332484e-08 input_violation=2.082332484e-08
+admm iter=120 fp_residual=1.000283004e-08 primal_inf=4.865589931e-09 input_violation=4.865589931e-09
+admm iter=130 fp_residual=2.337268902e-09 primal_inf=1.136898131e-09 input_violation=1.136898131e-09
+admm iter=140 fp_residual=5.461305446e-10 primal_inf=2.656499465e-10 input_violation=2.656499465e-10
+admm iter=150 fp_residual=1.276087623e-10 primal_inf=6.207212522e-11 input_violation=6.207212522e-11
+admm iter=160 fp_residual=2.981860483e-11 primal_inf=1.450395359e-11 input_violation=1.450395359e-11
+admm iter=170 fp_residual=6.963305082e-12 primal_inf=3.38928885e-12 input_violation=3.38928885e-12
+admm iter=180 fp_residual=1.630713848e-12 primal_inf=7.929212842e-13 input_violation=7.929212842e-13
+admm iter=190 fp_residual=3.823793298e-13 primal_inf=1.856292897e-13 input_violation=1.856292897e-13
+admm iter=200 fp_residual=9.004473261e-14 primal_inf=4.196643033e-14 input_violation=4.196643033e-14
+halpern iter=1 fp_residual=2.078188224 primal_inf=0.4151922738 input_violation=0.4151922738
+halpern iter=10 fp_residual=0.3436567737 primal_inf=0.1961737447 input_violation=0.1961737447
+halpern iter=20 fp_residual=0.1908529602 primal_inf=0.1111870843 input_violation=0.1111870843
+halpern iter=30 fp_residual=0.1294751401 primal_inf=0.07557747258 input_violation=0.07557747258
+halpern iter=40 fp_residual=0.09739303142 primal_inf=0.05686756823 input_violation=0.05686756823
+halpern iter=50 fp_residual=0.07795336986 primal_inf=0.04551908394 input_violation=0.04551908394
+halpern iter=60 fp_residual=0.06496664809 primal_inf=0.03793610829 input_violation=0.03793610829
+halpern iter=70 fp_residual=0.05568649909 primal_inf=0.03251717875 input_violation=0.03251717875
+halpern iter=80 fp_residual=0.04891969014 primal_inf=0.02860005878 input_violation=0.02860005878
+halpern iter=90 fp_residual=0.04357587522 primal_inf=0.02548111036 input_violation=0.02548111036
+halpern iter=100 fp_residual=0.03923810484 primal_inf=0.02294575356 input_violation=0.02294575356
+halpern iter=110 fp_residual=0.03567522343 primal_inf=0.0208624918 input_violation=0.0208624918
+halpern iter=120 fp_residual=0.03270319201 primal_inf=0.01912453263 input_violation=0.01912453263
+halpern iter=130 fp_residual=0.03018775681 primal_inf=0.01765354023 input_violation=0.01765354023
+halpern iter=140 fp_residual=0.02803153077 primal_inf=0.0163926003 input_violation=0.0163926003
+halpern iter=150 fp_residual=0.02616277127 primal_inf=0.01529976622 input_violation=0.01529976622
+halpern iter=160 fp_residual=0.02452760009 primal_inf=0.01434353213 input_violation=0.01434353213
+halpern iter=170 fp_residual=0.02308480053 primal_inf=0.01349979523 input_violation=0.01349979523
+halpern iter=180 fp_residual=0.02180231171 primal_inf=0.01274980667 input_violation=0.01274980667
+halpern iter=190 fp_residual=0.02065482164 primal_inf=0.01207876423 input_violation=0.01207876423
+halpern iter=200 fp_residual=0.01962208056 primal_inf=0.01147482602 input_violation=0.01147482602
+
+First residual: ADMM=2.078188224 Halpern=2.078188224
+First evaluation with residual <= 0.0001: ADMM=57 Halpern=-1 (-1 means not reached)
+Final residual: ADMM=9.004473261e-14 Halpern=0.01962208056
+Evaluations with unprojected input outside the box: ADMM=146 Halpern=200
+Saved result/cartpole_convergence.csv

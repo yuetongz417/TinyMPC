@@ -1,0 +1,1195 @@
+A = [    1,  0.01,     0,     0]
+[    0,     1, 0.039,     0]
+[    0,     0, 1.002,  0.01]
+[    0,     0, 0.458, 1.002]
+B = [    0]
+[ 0.02]
+[    0]
+[0.067]
+Q = [12,  0,  0,  0]
+[ 0,  3,  0,  0]
+[ 0,  0, 12,  0]
+[ 0,  0,  0,  3]
+R = [3]
+rho = 1
+Kinf converged after 454 iterations
+Kinf = [-1.828, -2.411,  20.67,  3.366]
+Pinf = [     1583,     885.7,     -2137,    -362.4]
+[    885.7,     947.8,     -2447,    -411.1]
+[    -2137,     -2447, 1.173e+04,      1764]
+[   -362.4,    -411.1,      1764,     292.4]
+Quu_inv = [0.2785]
+AmBKt = [       1,  0.03656,        0,   0.1225]
+[    0.01,    1.048,        0,   0.1615]
+[       0,  -0.3745,    1.002,  -0.9271]
+[       0, -0.06733,     0.01,   0.7765]
+APf = [0]
+[0]
+[0]
+[0]
+BPf = [0]
+
+Precomputation finished!
+
+tracking error: 0.5
+MPC step: 0, status: 1, iterations: 100
+tracking error: 0.506167
+MPC step: 1, status: 1, iterations: 100
+tracking error: 0.520213
+MPC step: 2, status: 1, iterations: 100
+tracking error: 0.536852
+MPC step: 3, status: 1, iterations: 100
+tracking error: 0.552957
+MPC step: 4, status: 1, iterations: 100
+tracking error: 0.566893
+MPC step: 5, status: 1, iterations: 100
+tracking error: 0.577947
+MPC step: 6, status: 1, iterations: 100
+tracking error: 0.585945
+MPC step: 7, status: 1, iterations: 100
+tracking error: 0.591015
+Halpern ADMM converged in 94 iterations
+MPC step: 8, status: 0, iterations: 94
+tracking error: 0.593443
+Halpern ADMM converged in 83 iterations
+MPC step: 9, status: 0, iterations: 83
+tracking error: 0.593588
+Halpern ADMM converged in 73 iterations
+MPC step: 10, status: 0, iterations: 73
+tracking error: 0.591837
+Halpern ADMM converged in 64 iterations
+MPC step: 11, status: 0, iterations: 64
+tracking error: 0.588568
+Halpern ADMM converged in 56 iterations
+MPC step: 12, status: 0, iterations: 56
+tracking error: 0.584139
+Halpern ADMM converged in 49 iterations
+MPC step: 13, status: 0, iterations: 49
+tracking error: 0.57888
+Halpern ADMM converged in 42 iterations
+MPC step: 14, status: 0, iterations: 42
+tracking error: 0.573081
+Halpern ADMM converged in 36 iterations
+MPC step: 15, status: 0, iterations: 36
+tracking error: 0.567
+Halpern ADMM converged in 31 iterations
+MPC step: 16, status: 0, iterations: 31
+tracking error: 0.560854
+Halpern ADMM converged in 26 iterations
+MPC step: 17, status: 0, iterations: 26
+tracking error: 0.554826
+Halpern ADMM converged in 22 iterations
+MPC step: 18, status: 0, iterations: 22
+tracking error: 0.549066
+Halpern ADMM converged in 19 iterations
+MPC step: 19, status: 0, iterations: 19
+tracking error: 0.543689
+Halpern ADMM converged in 17 iterations
+MPC step: 20, status: 0, iterations: 17
+tracking error: 0.538783
+Halpern ADMM converged in 17 iterations
+MPC step: 21, status: 0, iterations: 17
+tracking error: 0.534407
+Halpern ADMM converged in 17 iterations
+MPC step: 22, status: 0, iterations: 17
+tracking error: 0.5306
+Halpern ADMM converged in 16 iterations
+MPC step: 23, status: 0, iterations: 16
+tracking error: 0.527379
+Halpern ADMM converged in 16 iterations
+MPC step: 24, status: 0, iterations: 16
+tracking error: 0.524745
+Halpern ADMM converged in 16 iterations
+MPC step: 25, status: 0, iterations: 16
+tracking error: 0.522682
+Halpern ADMM converged in 15 iterations
+MPC step: 26, status: 0, iterations: 15
+tracking error: 0.521166
+Halpern ADMM converged in 15 iterations
+MPC step: 27, status: 0, iterations: 15
+tracking error: 0.520162
+Halpern ADMM converged in 14 iterations
+MPC step: 28, status: 0, iterations: 14
+tracking error: 0.519629
+Halpern ADMM converged in 14 iterations
+MPC step: 29, status: 0, iterations: 14
+tracking error: 0.519522
+Halpern ADMM converged in 14 iterations
+MPC step: 30, status: 0, iterations: 14
+tracking error: 0.519795
+Halpern ADMM converged in 14 iterations
+MPC step: 31, status: 0, iterations: 14
+tracking error: 0.520398
+Halpern ADMM converged in 15 iterations
+MPC step: 32, status: 0, iterations: 15
+tracking error: 0.521285
+Halpern ADMM converged in 15 iterations
+MPC step: 33, status: 0, iterations: 15
+tracking error: 0.52241
+Halpern ADMM converged in 15 iterations
+MPC step: 34, status: 0, iterations: 15
+tracking error: 0.523728
+Halpern ADMM converged in 15 iterations
+MPC step: 35, status: 0, iterations: 15
+tracking error: 0.525198
+Halpern ADMM converged in 15 iterations
+MPC step: 36, status: 0, iterations: 15
+tracking error: 0.526783
+Halpern ADMM converged in 15 iterations
+MPC step: 37, status: 0, iterations: 15
+tracking error: 0.528447
+Halpern ADMM converged in 15 iterations
+MPC step: 38, status: 0, iterations: 15
+tracking error: 0.530159
+Halpern ADMM converged in 15 iterations
+MPC step: 39, status: 0, iterations: 15
+tracking error: 0.53189
+Halpern ADMM converged in 15 iterations
+MPC step: 40, status: 0, iterations: 15
+tracking error: 0.533615
+Halpern ADMM converged in 15 iterations
+MPC step: 41, status: 0, iterations: 15
+tracking error: 0.535313
+Halpern ADMM converged in 15 iterations
+MPC step: 42, status: 0, iterations: 15
+tracking error: 0.536963
+Halpern ADMM converged in 15 iterations
+MPC step: 43, status: 0, iterations: 15
+tracking error: 0.53855
+Halpern ADMM converged in 15 iterations
+MPC step: 44, status: 0, iterations: 15
+tracking error: 0.540058
+Halpern ADMM converged in 15 iterations
+MPC step: 45, status: 0, iterations: 15
+tracking error: 0.541477
+Halpern ADMM converged in 15 iterations
+MPC step: 46, status: 0, iterations: 15
+tracking error: 0.542795
+Halpern ADMM converged in 15 iterations
+MPC step: 47, status: 0, iterations: 15
+tracking error: 0.544005
+Halpern ADMM converged in 14 iterations
+MPC step: 48, status: 0, iterations: 14
+tracking error: 0.545101
+Halpern ADMM converged in 14 iterations
+MPC step: 49, status: 0, iterations: 14
+tracking error: 0.546076
+Halpern ADMM converged in 14 iterations
+MPC step: 50, status: 0, iterations: 14
+tracking error: 0.546928
+Halpern ADMM converged in 14 iterations
+MPC step: 51, status: 0, iterations: 14
+tracking error: 0.547654
+Halpern ADMM converged in 14 iterations
+MPC step: 52, status: 0, iterations: 14
+tracking error: 0.548251
+Halpern ADMM converged in 14 iterations
+MPC step: 53, status: 0, iterations: 14
+tracking error: 0.548719
+Halpern ADMM converged in 13 iterations
+MPC step: 54, status: 0, iterations: 13
+tracking error: 0.549057
+Halpern ADMM converged in 13 iterations
+MPC step: 55, status: 0, iterations: 13
+tracking error: 0.549265
+Halpern ADMM converged in 13 iterations
+MPC step: 56, status: 0, iterations: 13
+tracking error: 0.549346
+Halpern ADMM converged in 13 iterations
+MPC step: 57, status: 0, iterations: 13
+tracking error: 0.549299
+Halpern ADMM converged in 13 iterations
+MPC step: 58, status: 0, iterations: 13
+tracking error: 0.549127
+Halpern ADMM converged in 12 iterations
+MPC step: 59, status: 0, iterations: 12
+tracking error: 0.548832
+Halpern ADMM converged in 12 iterations
+MPC step: 60, status: 0, iterations: 12
+tracking error: 0.548416
+Halpern ADMM converged in 12 iterations
+MPC step: 61, status: 0, iterations: 12
+tracking error: 0.547881
+Halpern ADMM converged in 12 iterations
+MPC step: 62, status: 0, iterations: 12
+tracking error: 0.547231
+Halpern ADMM converged in 12 iterations
+MPC step: 63, status: 0, iterations: 12
+tracking error: 0.546467
+Halpern ADMM converged in 11 iterations
+MPC step: 64, status: 0, iterations: 11
+tracking error: 0.545593
+Halpern ADMM converged in 11 iterations
+MPC step: 65, status: 0, iterations: 11
+tracking error: 0.544612
+Halpern ADMM converged in 11 iterations
+MPC step: 66, status: 0, iterations: 11
+tracking error: 0.543526
+Halpern ADMM converged in 11 iterations
+MPC step: 67, status: 0, iterations: 11
+tracking error: 0.542339
+Halpern ADMM converged in 11 iterations
+MPC step: 68, status: 0, iterations: 11
+tracking error: 0.541053
+Halpern ADMM converged in 10 iterations
+MPC step: 69, status: 0, iterations: 10
+tracking error: 0.539672
+Halpern ADMM converged in 10 iterations
+MPC step: 70, status: 0, iterations: 10
+tracking error: 0.538199
+Halpern ADMM converged in 10 iterations
+MPC step: 71, status: 0, iterations: 10
+tracking error: 0.536636
+Halpern ADMM converged in 10 iterations
+MPC step: 72, status: 0, iterations: 10
+tracking error: 0.534987
+Halpern ADMM converged in 10 iterations
+MPC step: 73, status: 0, iterations: 10
+tracking error: 0.533253
+Halpern ADMM converged in 9 iterations
+MPC step: 74, status: 0, iterations: 9
+tracking error: 0.531439
+Halpern ADMM converged in 9 iterations
+MPC step: 75, status: 0, iterations: 9
+tracking error: 0.529547
+Halpern ADMM converged in 9 iterations
+MPC step: 76, status: 0, iterations: 9
+tracking error: 0.52758
+Halpern ADMM converged in 9 iterations
+MPC step: 77, status: 0, iterations: 9
+tracking error: 0.52554
+Halpern ADMM converged in 9 iterations
+MPC step: 78, status: 0, iterations: 9
+tracking error: 0.523429
+Halpern ADMM converged in 8 iterations
+MPC step: 79, status: 0, iterations: 8
+tracking error: 0.521251
+Halpern ADMM converged in 8 iterations
+MPC step: 80, status: 0, iterations: 8
+tracking error: 0.519008
+Halpern ADMM converged in 8 iterations
+MPC step: 81, status: 0, iterations: 8
+tracking error: 0.516701
+Halpern ADMM converged in 8 iterations
+MPC step: 82, status: 0, iterations: 8
+tracking error: 0.514335
+Halpern ADMM converged in 8 iterations
+MPC step: 83, status: 0, iterations: 8
+tracking error: 0.51191
+Halpern ADMM converged in 8 iterations
+MPC step: 84, status: 0, iterations: 8
+tracking error: 0.50943
+Halpern ADMM converged in 7 iterations
+MPC step: 85, status: 0, iterations: 7
+tracking error: 0.506895
+Halpern ADMM converged in 7 iterations
+MPC step: 86, status: 0, iterations: 7
+tracking error: 0.504309
+Halpern ADMM converged in 7 iterations
+MPC step: 87, status: 0, iterations: 7
+tracking error: 0.501673
+Halpern ADMM converged in 7 iterations
+MPC step: 88, status: 0, iterations: 7
+tracking error: 0.49899
+Halpern ADMM converged in 7 iterations
+MPC step: 89, status: 0, iterations: 7
+tracking error: 0.496261
+Halpern ADMM converged in 7 iterations
+MPC step: 90, status: 0, iterations: 7
+tracking error: 0.493488
+Halpern ADMM converged in 7 iterations
+MPC step: 91, status: 0, iterations: 7
+tracking error: 0.490673
+Halpern ADMM converged in 6 iterations
+MPC step: 92, status: 0, iterations: 6
+tracking error: 0.487818
+Halpern ADMM converged in 6 iterations
+MPC step: 93, status: 0, iterations: 6
+tracking error: 0.484925
+Halpern ADMM converged in 6 iterations
+MPC step: 94, status: 0, iterations: 6
+tracking error: 0.481995
+Halpern ADMM converged in 6 iterations
+MPC step: 95, status: 0, iterations: 6
+tracking error: 0.479029
+Halpern ADMM converged in 6 iterations
+MPC step: 96, status: 0, iterations: 6
+tracking error: 0.47603
+Halpern ADMM converged in 6 iterations
+MPC step: 97, status: 0, iterations: 6
+tracking error: 0.473
+Halpern ADMM converged in 6 iterations
+MPC step: 98, status: 0, iterations: 6
+tracking error: 0.469939
+Halpern ADMM converged in 5 iterations
+MPC step: 99, status: 0, iterations: 5
+tracking error: 0.466849
+Halpern ADMM converged in 5 iterations
+MPC step: 100, status: 0, iterations: 5
+tracking error: 0.463731
+Halpern ADMM converged in 5 iterations
+MPC step: 101, status: 0, iterations: 5
+tracking error: 0.460588
+Halpern ADMM converged in 5 iterations
+MPC step: 102, status: 0, iterations: 5
+tracking error: 0.45742
+Halpern ADMM converged in 5 iterations
+MPC step: 103, status: 0, iterations: 5
+tracking error: 0.454229
+Halpern ADMM converged in 5 iterations
+MPC step: 104, status: 0, iterations: 5
+tracking error: 0.451015
+Halpern ADMM converged in 5 iterations
+MPC step: 105, status: 0, iterations: 5
+tracking error: 0.447781
+Halpern ADMM converged in 4 iterations
+MPC step: 106, status: 0, iterations: 4
+tracking error: 0.444528
+Halpern ADMM converged in 4 iterations
+MPC step: 107, status: 0, iterations: 4
+tracking error: 0.441256
+Halpern ADMM converged in 4 iterations
+MPC step: 108, status: 0, iterations: 4
+tracking error: 0.437967
+Halpern ADMM converged in 4 iterations
+MPC step: 109, status: 0, iterations: 4
+tracking error: 0.434662
+Halpern ADMM converged in 4 iterations
+MPC step: 110, status: 0, iterations: 4
+tracking error: 0.431343
+Halpern ADMM converged in 4 iterations
+MPC step: 111, status: 0, iterations: 4
+tracking error: 0.42801
+Halpern ADMM converged in 4 iterations
+MPC step: 112, status: 0, iterations: 4
+tracking error: 0.424664
+Halpern ADMM converged in 4 iterations
+MPC step: 113, status: 0, iterations: 4
+tracking error: 0.421307
+Halpern ADMM converged in 4 iterations
+MPC step: 114, status: 0, iterations: 4
+tracking error: 0.417939
+Halpern ADMM converged in 4 iterations
+MPC step: 115, status: 0, iterations: 4
+tracking error: 0.414562
+Halpern ADMM converged in 4 iterations
+MPC step: 116, status: 0, iterations: 4
+tracking error: 0.411176
+Halpern ADMM converged in 4 iterations
+MPC step: 117, status: 0, iterations: 4
+tracking error: 0.407782
+Halpern ADMM converged in 4 iterations
+MPC step: 118, status: 0, iterations: 4
+tracking error: 0.404383
+Halpern ADMM converged in 4 iterations
+MPC step: 119, status: 0, iterations: 4
+tracking error: 0.400977
+Halpern ADMM converged in 4 iterations
+MPC step: 120, status: 0, iterations: 4
+tracking error: 0.397566
+Halpern ADMM converged in 4 iterations
+MPC step: 121, status: 0, iterations: 4
+tracking error: 0.394152
+Halpern ADMM converged in 4 iterations
+MPC step: 122, status: 0, iterations: 4
+tracking error: 0.390734
+Halpern ADMM converged in 4 iterations
+MPC step: 123, status: 0, iterations: 4
+tracking error: 0.387315
+Halpern ADMM converged in 4 iterations
+MPC step: 124, status: 0, iterations: 4
+tracking error: 0.383893
+Halpern ADMM converged in 3 iterations
+MPC step: 125, status: 0, iterations: 3
+tracking error: 0.380472
+Halpern ADMM converged in 3 iterations
+MPC step: 126, status: 0, iterations: 3
+tracking error: 0.377051
+Halpern ADMM converged in 3 iterations
+MPC step: 127, status: 0, iterations: 3
+tracking error: 0.37363
+Halpern ADMM converged in 3 iterations
+MPC step: 128, status: 0, iterations: 3
+tracking error: 0.370211
+Halpern ADMM converged in 3 iterations
+MPC step: 129, status: 0, iterations: 3
+tracking error: 0.366794
+Halpern ADMM converged in 3 iterations
+MPC step: 130, status: 0, iterations: 3
+tracking error: 0.36338
+Halpern ADMM converged in 3 iterations
+MPC step: 131, status: 0, iterations: 3
+tracking error: 0.35997
+Halpern ADMM converged in 3 iterations
+MPC step: 132, status: 0, iterations: 3
+tracking error: 0.356565
+Halpern ADMM converged in 3 iterations
+MPC step: 133, status: 0, iterations: 3
+tracking error: 0.353164
+Halpern ADMM converged in 3 iterations
+MPC step: 134, status: 0, iterations: 3
+tracking error: 0.349769
+Halpern ADMM converged in 3 iterations
+MPC step: 135, status: 0, iterations: 3
+tracking error: 0.34638
+Halpern ADMM converged in 3 iterations
+MPC step: 136, status: 0, iterations: 3
+tracking error: 0.342998
+Halpern ADMM converged in 3 iterations
+MPC step: 137, status: 0, iterations: 3
+tracking error: 0.339624
+Halpern ADMM converged in 3 iterations
+MPC step: 138, status: 0, iterations: 3
+tracking error: 0.336257
+Halpern ADMM converged in 3 iterations
+MPC step: 139, status: 0, iterations: 3
+tracking error: 0.332899
+Halpern ADMM converged in 3 iterations
+MPC step: 140, status: 0, iterations: 3
+tracking error: 0.329551
+Halpern ADMM converged in 3 iterations
+MPC step: 141, status: 0, iterations: 3
+tracking error: 0.326212
+Halpern ADMM converged in 3 iterations
+MPC step: 142, status: 0, iterations: 3
+tracking error: 0.322883
+Halpern ADMM converged in 3 iterations
+MPC step: 143, status: 0, iterations: 3
+tracking error: 0.319565
+Halpern ADMM converged in 3 iterations
+MPC step: 144, status: 0, iterations: 3
+tracking error: 0.316257
+Halpern ADMM converged in 3 iterations
+MPC step: 145, status: 0, iterations: 3
+tracking error: 0.312962
+Halpern ADMM converged in 3 iterations
+MPC step: 146, status: 0, iterations: 3
+tracking error: 0.309679
+Halpern ADMM converged in 3 iterations
+MPC step: 147, status: 0, iterations: 3
+tracking error: 0.306408
+Halpern ADMM converged in 3 iterations
+MPC step: 148, status: 0, iterations: 3
+tracking error: 0.30315
+Halpern ADMM converged in 3 iterations
+MPC step: 149, status: 0, iterations: 3
+tracking error: 0.299905
+Halpern ADMM converged in 3 iterations
+MPC step: 150, status: 0, iterations: 3
+tracking error: 0.296674
+Halpern ADMM converged in 3 iterations
+MPC step: 151, status: 0, iterations: 3
+tracking error: 0.293458
+Halpern ADMM converged in 3 iterations
+MPC step: 152, status: 0, iterations: 3
+tracking error: 0.290255
+Halpern ADMM converged in 3 iterations
+MPC step: 153, status: 0, iterations: 3
+tracking error: 0.287068
+Halpern ADMM converged in 3 iterations
+MPC step: 154, status: 0, iterations: 3
+tracking error: 0.283896
+Halpern ADMM converged in 3 iterations
+MPC step: 155, status: 0, iterations: 3
+tracking error: 0.28074
+Halpern ADMM converged in 3 iterations
+MPC step: 156, status: 0, iterations: 3
+tracking error: 0.277599
+Halpern ADMM converged in 3 iterations
+MPC step: 157, status: 0, iterations: 3
+tracking error: 0.274475
+Halpern ADMM converged in 3 iterations
+MPC step: 158, status: 0, iterations: 3
+tracking error: 0.271367
+Halpern ADMM converged in 3 iterations
+MPC step: 159, status: 0, iterations: 3
+tracking error: 0.268276
+Halpern ADMM converged in 3 iterations
+MPC step: 160, status: 0, iterations: 3
+tracking error: 0.265203
+Halpern ADMM converged in 3 iterations
+MPC step: 161, status: 0, iterations: 3
+tracking error: 0.262146
+Halpern ADMM converged in 3 iterations
+MPC step: 162, status: 0, iterations: 3
+tracking error: 0.259108
+Halpern ADMM converged in 3 iterations
+MPC step: 163, status: 0, iterations: 3
+tracking error: 0.256087
+Halpern ADMM converged in 3 iterations
+MPC step: 164, status: 0, iterations: 3
+tracking error: 0.253084
+Halpern ADMM converged in 3 iterations
+MPC step: 165, status: 0, iterations: 3
+tracking error: 0.2501
+Halpern ADMM converged in 3 iterations
+MPC step: 166, status: 0, iterations: 3
+tracking error: 0.247135
+Halpern ADMM converged in 3 iterations
+MPC step: 167, status: 0, iterations: 3
+tracking error: 0.244188
+Halpern ADMM converged in 3 iterations
+MPC step: 168, status: 0, iterations: 3
+tracking error: 0.24126
+Halpern ADMM converged in 3 iterations
+MPC step: 169, status: 0, iterations: 3
+tracking error: 0.238352
+Halpern ADMM converged in 3 iterations
+MPC step: 170, status: 0, iterations: 3
+tracking error: 0.235463
+Halpern ADMM converged in 3 iterations
+MPC step: 171, status: 0, iterations: 3
+tracking error: 0.232594
+Halpern ADMM converged in 3 iterations
+MPC step: 172, status: 0, iterations: 3
+tracking error: 0.229744
+Halpern ADMM converged in 3 iterations
+MPC step: 173, status: 0, iterations: 3
+tracking error: 0.226915
+Halpern ADMM converged in 3 iterations
+MPC step: 174, status: 0, iterations: 3
+tracking error: 0.224105
+Halpern ADMM converged in 3 iterations
+MPC step: 175, status: 0, iterations: 3
+tracking error: 0.221316
+Halpern ADMM converged in 3 iterations
+MPC step: 176, status: 0, iterations: 3
+tracking error: 0.218547
+Halpern ADMM converged in 3 iterations
+MPC step: 177, status: 0, iterations: 3
+tracking error: 0.215799
+Halpern ADMM converged in 3 iterations
+MPC step: 178, status: 0, iterations: 3
+tracking error: 0.213071
+Halpern ADMM converged in 3 iterations
+MPC step: 179, status: 0, iterations: 3
+tracking error: 0.210364
+Halpern ADMM converged in 3 iterations
+MPC step: 180, status: 0, iterations: 3
+tracking error: 0.207678
+Halpern ADMM converged in 3 iterations
+MPC step: 181, status: 0, iterations: 3
+tracking error: 0.205013
+Halpern ADMM converged in 3 iterations
+MPC step: 182, status: 0, iterations: 3
+tracking error: 0.202369
+Halpern ADMM converged in 3 iterations
+MPC step: 183, status: 0, iterations: 3
+tracking error: 0.199745
+Halpern ADMM converged in 3 iterations
+MPC step: 184, status: 0, iterations: 3
+tracking error: 0.197144
+Halpern ADMM converged in 3 iterations
+MPC step: 185, status: 0, iterations: 3
+tracking error: 0.194563
+Halpern ADMM converged in 3 iterations
+MPC step: 186, status: 0, iterations: 3
+tracking error: 0.192004
+Halpern ADMM converged in 3 iterations
+MPC step: 187, status: 0, iterations: 3
+tracking error: 0.189466
+Halpern ADMM converged in 3 iterations
+MPC step: 188, status: 0, iterations: 3
+tracking error: 0.18695
+Halpern ADMM converged in 2 iterations
+MPC step: 189, status: 0, iterations: 2
+tracking error: 0.184455
+Halpern ADMM converged in 2 iterations
+MPC step: 190, status: 0, iterations: 2
+tracking error: 0.181982
+Halpern ADMM converged in 2 iterations
+MPC step: 191, status: 0, iterations: 2
+tracking error: 0.17953
+Halpern ADMM converged in 2 iterations
+MPC step: 192, status: 0, iterations: 2
+tracking error: 0.1771
+Halpern ADMM converged in 2 iterations
+MPC step: 193, status: 0, iterations: 2
+tracking error: 0.174692
+Halpern ADMM converged in 2 iterations
+MPC step: 194, status: 0, iterations: 2
+tracking error: 0.172305
+Halpern ADMM converged in 2 iterations
+MPC step: 195, status: 0, iterations: 2
+tracking error: 0.16994
+Halpern ADMM converged in 2 iterations
+MPC step: 196, status: 0, iterations: 2
+tracking error: 0.167596
+Halpern ADMM converged in 2 iterations
+MPC step: 197, status: 0, iterations: 2
+tracking error: 0.165274
+Halpern ADMM converged in 2 iterations
+MPC step: 198, status: 0, iterations: 2
+tracking error: 0.162973
+Halpern ADMM converged in 2 iterations
+MPC step: 199, status: 0, iterations: 2
+tracking error: 0.160694
+Halpern ADMM converged in 2 iterations
+MPC step: 200, status: 0, iterations: 2
+tracking error: 0.158437
+Halpern ADMM converged in 2 iterations
+MPC step: 201, status: 0, iterations: 2
+tracking error: 0.156201
+Halpern ADMM converged in 2 iterations
+MPC step: 202, status: 0, iterations: 2
+tracking error: 0.153987
+Halpern ADMM converged in 2 iterations
+MPC step: 203, status: 0, iterations: 2
+tracking error: 0.151794
+Halpern ADMM converged in 2 iterations
+MPC step: 204, status: 0, iterations: 2
+tracking error: 0.149623
+Halpern ADMM converged in 2 iterations
+MPC step: 205, status: 0, iterations: 2
+tracking error: 0.147473
+Halpern ADMM converged in 2 iterations
+MPC step: 206, status: 0, iterations: 2
+tracking error: 0.145345
+Halpern ADMM converged in 2 iterations
+MPC step: 207, status: 0, iterations: 2
+tracking error: 0.143238
+Halpern ADMM converged in 2 iterations
+MPC step: 208, status: 0, iterations: 2
+tracking error: 0.141153
+Halpern ADMM converged in 2 iterations
+MPC step: 209, status: 0, iterations: 2
+tracking error: 0.139088
+Halpern ADMM converged in 2 iterations
+MPC step: 210, status: 0, iterations: 2
+tracking error: 0.137045
+Halpern ADMM converged in 2 iterations
+MPC step: 211, status: 0, iterations: 2
+tracking error: 0.135023
+Halpern ADMM converged in 2 iterations
+MPC step: 212, status: 0, iterations: 2
+tracking error: 0.133022
+Halpern ADMM converged in 2 iterations
+MPC step: 213, status: 0, iterations: 2
+tracking error: 0.131043
+Halpern ADMM converged in 2 iterations
+MPC step: 214, status: 0, iterations: 2
+tracking error: 0.129084
+Halpern ADMM converged in 2 iterations
+MPC step: 215, status: 0, iterations: 2
+tracking error: 0.127146
+Halpern ADMM converged in 2 iterations
+MPC step: 216, status: 0, iterations: 2
+tracking error: 0.125229
+Halpern ADMM converged in 2 iterations
+MPC step: 217, status: 0, iterations: 2
+tracking error: 0.123333
+Halpern ADMM converged in 2 iterations
+MPC step: 218, status: 0, iterations: 2
+tracking error: 0.121457
+Halpern ADMM converged in 2 iterations
+MPC step: 219, status: 0, iterations: 2
+tracking error: 0.119602
+Halpern ADMM converged in 2 iterations
+MPC step: 220, status: 0, iterations: 2
+tracking error: 0.117767
+Halpern ADMM converged in 2 iterations
+MPC step: 221, status: 0, iterations: 2
+tracking error: 0.115953
+Halpern ADMM converged in 2 iterations
+MPC step: 222, status: 0, iterations: 2
+tracking error: 0.114159
+Halpern ADMM converged in 2 iterations
+MPC step: 223, status: 0, iterations: 2
+tracking error: 0.112386
+Halpern ADMM converged in 2 iterations
+MPC step: 224, status: 0, iterations: 2
+tracking error: 0.110632
+Halpern ADMM converged in 2 iterations
+MPC step: 225, status: 0, iterations: 2
+tracking error: 0.108899
+Halpern ADMM converged in 2 iterations
+MPC step: 226, status: 0, iterations: 2
+tracking error: 0.107185
+Halpern ADMM converged in 2 iterations
+MPC step: 227, status: 0, iterations: 2
+tracking error: 0.105492
+Halpern ADMM converged in 2 iterations
+MPC step: 228, status: 0, iterations: 2
+tracking error: 0.103818
+Halpern ADMM converged in 2 iterations
+MPC step: 229, status: 0, iterations: 2
+tracking error: 0.102163
+Halpern ADMM converged in 2 iterations
+MPC step: 230, status: 0, iterations: 2
+tracking error: 0.100528
+Halpern ADMM converged in 2 iterations
+MPC step: 231, status: 0, iterations: 2
+tracking error: 0.0989127
+Halpern ADMM converged in 2 iterations
+MPC step: 232, status: 0, iterations: 2
+tracking error: 0.0973164
+Halpern ADMM converged in 2 iterations
+MPC step: 233, status: 0, iterations: 2
+tracking error: 0.0957393
+Halpern ADMM converged in 2 iterations
+MPC step: 234, status: 0, iterations: 2
+tracking error: 0.0941813
+Halpern ADMM converged in 2 iterations
+MPC step: 235, status: 0, iterations: 2
+tracking error: 0.0926422
+Halpern ADMM converged in 2 iterations
+MPC step: 236, status: 0, iterations: 2
+tracking error: 0.0911218
+Halpern ADMM converged in 2 iterations
+MPC step: 237, status: 0, iterations: 2
+tracking error: 0.0896202
+Halpern ADMM converged in 2 iterations
+MPC step: 238, status: 0, iterations: 2
+tracking error: 0.0881371
+Halpern ADMM converged in 2 iterations
+MPC step: 239, status: 0, iterations: 2
+tracking error: 0.0866725
+Halpern ADMM converged in 2 iterations
+MPC step: 240, status: 0, iterations: 2
+tracking error: 0.0852262
+Halpern ADMM converged in 2 iterations
+MPC step: 241, status: 0, iterations: 2
+tracking error: 0.083798
+Halpern ADMM converged in 2 iterations
+MPC step: 242, status: 0, iterations: 2
+tracking error: 0.082388
+Halpern ADMM converged in 2 iterations
+MPC step: 243, status: 0, iterations: 2
+tracking error: 0.0809958
+Halpern ADMM converged in 2 iterations
+MPC step: 244, status: 0, iterations: 2
+tracking error: 0.0796215
+Halpern ADMM converged in 2 iterations
+MPC step: 245, status: 0, iterations: 2
+tracking error: 0.0782649
+Halpern ADMM converged in 2 iterations
+MPC step: 246, status: 0, iterations: 2
+tracking error: 0.0769258
+Halpern ADMM converged in 2 iterations
+MPC step: 247, status: 0, iterations: 2
+tracking error: 0.0756041
+Halpern ADMM converged in 2 iterations
+MPC step: 248, status: 0, iterations: 2
+tracking error: 0.0742997
+Halpern ADMM converged in 2 iterations
+MPC step: 249, status: 0, iterations: 2
+tracking error: 0.0730125
+Halpern ADMM converged in 2 iterations
+MPC step: 250, status: 0, iterations: 2
+tracking error: 0.0717423
+Halpern ADMM converged in 2 iterations
+MPC step: 251, status: 0, iterations: 2
+tracking error: 0.0704889
+Halpern ADMM converged in 2 iterations
+MPC step: 252, status: 0, iterations: 2
+tracking error: 0.0692524
+Halpern ADMM converged in 2 iterations
+MPC step: 253, status: 0, iterations: 2
+tracking error: 0.0680324
+Halpern ADMM converged in 2 iterations
+MPC step: 254, status: 0, iterations: 2
+tracking error: 0.0668289
+Halpern ADMM converged in 2 iterations
+MPC step: 255, status: 0, iterations: 2
+tracking error: 0.0656418
+Halpern ADMM converged in 2 iterations
+MPC step: 256, status: 0, iterations: 2
+tracking error: 0.0644709
+Halpern ADMM converged in 2 iterations
+MPC step: 257, status: 0, iterations: 2
+tracking error: 0.0633161
+Halpern ADMM converged in 2 iterations
+MPC step: 258, status: 0, iterations: 2
+tracking error: 0.0621772
+Halpern ADMM converged in 2 iterations
+MPC step: 259, status: 0, iterations: 2
+tracking error: 0.0610541
+Halpern ADMM converged in 1 iterations
+MPC step: 260, status: 0, iterations: 1
+tracking error: 0.0599467
+Halpern ADMM converged in 1 iterations
+MPC step: 261, status: 0, iterations: 1
+tracking error: 0.0588549
+Halpern ADMM converged in 1 iterations
+MPC step: 262, status: 0, iterations: 1
+tracking error: 0.0577784
+Halpern ADMM converged in 1 iterations
+MPC step: 263, status: 0, iterations: 1
+tracking error: 0.0567172
+Halpern ADMM converged in 1 iterations
+MPC step: 264, status: 0, iterations: 1
+tracking error: 0.0556711
+Halpern ADMM converged in 1 iterations
+MPC step: 265, status: 0, iterations: 1
+tracking error: 0.0546399
+Halpern ADMM converged in 1 iterations
+MPC step: 266, status: 0, iterations: 1
+tracking error: 0.0536236
+Halpern ADMM converged in 1 iterations
+MPC step: 267, status: 0, iterations: 1
+tracking error: 0.052622
+Halpern ADMM converged in 1 iterations
+MPC step: 268, status: 0, iterations: 1
+tracking error: 0.051635
+Halpern ADMM converged in 1 iterations
+MPC step: 269, status: 0, iterations: 1
+tracking error: 0.0506624
+Halpern ADMM converged in 1 iterations
+MPC step: 270, status: 0, iterations: 1
+tracking error: 0.0497041
+Halpern ADMM converged in 1 iterations
+MPC step: 271, status: 0, iterations: 1
+tracking error: 0.04876
+Halpern ADMM converged in 1 iterations
+MPC step: 272, status: 0, iterations: 1
+tracking error: 0.0478298
+Halpern ADMM converged in 1 iterations
+MPC step: 273, status: 0, iterations: 1
+tracking error: 0.0469136
+Halpern ADMM converged in 1 iterations
+MPC step: 274, status: 0, iterations: 1
+tracking error: 0.0460112
+Halpern ADMM converged in 1 iterations
+MPC step: 275, status: 0, iterations: 1
+tracking error: 0.0451223
+Halpern ADMM converged in 1 iterations
+MPC step: 276, status: 0, iterations: 1
+tracking error: 0.044247
+Halpern ADMM converged in 1 iterations
+MPC step: 277, status: 0, iterations: 1
+tracking error: 0.043385
+Halpern ADMM converged in 1 iterations
+MPC step: 278, status: 0, iterations: 1
+tracking error: 0.0425362
+Halpern ADMM converged in 1 iterations
+MPC step: 279, status: 0, iterations: 1
+tracking error: 0.0417005
+Halpern ADMM converged in 1 iterations
+MPC step: 280, status: 0, iterations: 1
+tracking error: 0.0408778
+Halpern ADMM converged in 1 iterations
+MPC step: 281, status: 0, iterations: 1
+tracking error: 0.0400679
+Halpern ADMM converged in 1 iterations
+MPC step: 282, status: 0, iterations: 1
+tracking error: 0.0392708
+Halpern ADMM converged in 1 iterations
+MPC step: 283, status: 0, iterations: 1
+tracking error: 0.0384861
+Halpern ADMM converged in 1 iterations
+MPC step: 284, status: 0, iterations: 1
+tracking error: 0.037714
+Halpern ADMM converged in 1 iterations
+MPC step: 285, status: 0, iterations: 1
+tracking error: 0.0369541
+Halpern ADMM converged in 1 iterations
+MPC step: 286, status: 0, iterations: 1
+tracking error: 0.0362064
+Halpern ADMM converged in 1 iterations
+MPC step: 287, status: 0, iterations: 1
+tracking error: 0.0354707
+Halpern ADMM converged in 1 iterations
+MPC step: 288, status: 0, iterations: 1
+tracking error: 0.034747
+Halpern ADMM converged in 1 iterations
+MPC step: 289, status: 0, iterations: 1
+tracking error: 0.0340351
+Halpern ADMM converged in 1 iterations
+MPC step: 290, status: 0, iterations: 1
+tracking error: 0.0333349
+Halpern ADMM converged in 1 iterations
+MPC step: 291, status: 0, iterations: 1
+tracking error: 0.0326462
+Halpern ADMM converged in 1 iterations
+MPC step: 292, status: 0, iterations: 1
+tracking error: 0.0319689
+Halpern ADMM converged in 1 iterations
+MPC step: 293, status: 0, iterations: 1
+tracking error: 0.0313029
+Halpern ADMM converged in 1 iterations
+MPC step: 294, status: 0, iterations: 1
+tracking error: 0.0306481
+Halpern ADMM converged in 1 iterations
+MPC step: 295, status: 0, iterations: 1
+tracking error: 0.0300044
+Halpern ADMM converged in 1 iterations
+MPC step: 296, status: 0, iterations: 1
+tracking error: 0.0293715
+Halpern ADMM converged in 1 iterations
+MPC step: 297, status: 0, iterations: 1
+tracking error: 0.0287495
+Halpern ADMM converged in 1 iterations
+MPC step: 298, status: 0, iterations: 1
+tracking error: 0.0281382
+Halpern ADMM converged in 1 iterations
+MPC step: 299, status: 0, iterations: 1
+tracking error: 0.0275375
+Halpern ADMM converged in 1 iterations
+MPC step: 300, status: 0, iterations: 1
+tracking error: 0.0269472
+Halpern ADMM converged in 1 iterations
+MPC step: 301, status: 0, iterations: 1
+tracking error: 0.0263673
+Halpern ADMM converged in 1 iterations
+MPC step: 302, status: 0, iterations: 1
+tracking error: 0.0257976
+Halpern ADMM converged in 1 iterations
+MPC step: 303, status: 0, iterations: 1
+tracking error: 0.025238
+Halpern ADMM converged in 1 iterations
+MPC step: 304, status: 0, iterations: 1
+tracking error: 0.0246884
+Halpern ADMM converged in 1 iterations
+MPC step: 305, status: 0, iterations: 1
+tracking error: 0.0241487
+Halpern ADMM converged in 1 iterations
+MPC step: 306, status: 0, iterations: 1
+tracking error: 0.0236188
+Halpern ADMM converged in 1 iterations
+MPC step: 307, status: 0, iterations: 1
+tracking error: 0.0230985
+Halpern ADMM converged in 1 iterations
+MPC step: 308, status: 0, iterations: 1
+tracking error: 0.0225878
+Halpern ADMM converged in 1 iterations
+MPC step: 309, status: 0, iterations: 1
+tracking error: 0.0220865
+Halpern ADMM converged in 1 iterations
+MPC step: 310, status: 0, iterations: 1
+tracking error: 0.0215945
+Halpern ADMM converged in 1 iterations
+MPC step: 311, status: 0, iterations: 1
+tracking error: 0.0211118
+Halpern ADMM converged in 1 iterations
+MPC step: 312, status: 0, iterations: 1
+tracking error: 0.0206383
+Halpern ADMM converged in 1 iterations
+MPC step: 313, status: 0, iterations: 1
+tracking error: 0.0201737
+Halpern ADMM converged in 1 iterations
+MPC step: 314, status: 0, iterations: 1
+tracking error: 0.019718
+Halpern ADMM converged in 1 iterations
+MPC step: 315, status: 0, iterations: 1
+tracking error: 0.0192712
+Halpern ADMM converged in 1 iterations
+MPC step: 316, status: 0, iterations: 1
+tracking error: 0.0188331
+Halpern ADMM converged in 1 iterations
+MPC step: 317, status: 0, iterations: 1
+tracking error: 0.0184036
+Halpern ADMM converged in 1 iterations
+MPC step: 318, status: 0, iterations: 1
+tracking error: 0.0179826
+Halpern ADMM converged in 1 iterations
+MPC step: 319, status: 0, iterations: 1
+tracking error: 0.0175701
+Halpern ADMM converged in 1 iterations
+MPC step: 320, status: 0, iterations: 1
+tracking error: 0.0171658
+Halpern ADMM converged in 1 iterations
+MPC step: 321, status: 0, iterations: 1
+tracking error: 0.0167698
+Halpern ADMM converged in 1 iterations
+MPC step: 322, status: 0, iterations: 1
+tracking error: 0.016382
+Halpern ADMM converged in 1 iterations
+MPC step: 323, status: 0, iterations: 1
+tracking error: 0.0160021
+Halpern ADMM converged in 1 iterations
+MPC step: 324, status: 0, iterations: 1
+tracking error: 0.0156302
+Halpern ADMM converged in 1 iterations
+MPC step: 325, status: 0, iterations: 1
+tracking error: 0.0152662
+Halpern ADMM converged in 1 iterations
+MPC step: 326, status: 0, iterations: 1
+tracking error: 0.0149099
+Halpern ADMM converged in 1 iterations
+MPC step: 327, status: 0, iterations: 1
+tracking error: 0.0145614
+Halpern ADMM converged in 1 iterations
+MPC step: 328, status: 0, iterations: 1
+tracking error: 0.0142204
+Halpern ADMM converged in 1 iterations
+MPC step: 329, status: 0, iterations: 1
+tracking error: 0.0138869
+Halpern ADMM converged in 1 iterations
+MPC step: 330, status: 0, iterations: 1
+tracking error: 0.0135608
+Halpern ADMM converged in 1 iterations
+MPC step: 331, status: 0, iterations: 1
+tracking error: 0.0132421
+Halpern ADMM converged in 1 iterations
+MPC step: 332, status: 0, iterations: 1
+tracking error: 0.0129306
+Halpern ADMM converged in 1 iterations
+MPC step: 333, status: 0, iterations: 1
+tracking error: 0.0126264
+Halpern ADMM converged in 1 iterations
+MPC step: 334, status: 0, iterations: 1
+tracking error: 0.0123291
+Halpern ADMM converged in 1 iterations
+MPC step: 335, status: 0, iterations: 1
+tracking error: 0.012039
+Halpern ADMM converged in 1 iterations
+MPC step: 336, status: 0, iterations: 1
+tracking error: 0.0117557
+Halpern ADMM converged in 1 iterations
+MPC step: 337, status: 0, iterations: 1
+tracking error: 0.0114793
+Halpern ADMM converged in 1 iterations
+MPC step: 338, status: 0, iterations: 1
+tracking error: 0.0112096
+Halpern ADMM converged in 1 iterations
+MPC step: 339, status: 0, iterations: 1
+tracking error: 0.0109467
+Halpern ADMM converged in 1 iterations
+MPC step: 340, status: 0, iterations: 1
+tracking error: 0.0106904
+Halpern ADMM converged in 1 iterations
+MPC step: 341, status: 0, iterations: 1
+tracking error: 0.0104406
+Halpern ADMM converged in 1 iterations
+MPC step: 342, status: 0, iterations: 1
+tracking error: 0.0101973
+Halpern ADMM converged in 1 iterations
+MPC step: 343, status: 0, iterations: 1
+tracking error: 0.00996045
+Halpern ADMM converged in 1 iterations
+MPC step: 344, status: 0, iterations: 1
+tracking error: 0.00972988
+Halpern ADMM converged in 1 iterations
+MPC step: 345, status: 0, iterations: 1
+tracking error: 0.00950556
+Halpern ADMM converged in 1 iterations
+MPC step: 346, status: 0, iterations: 1
+tracking error: 0.00928742
+Halpern ADMM converged in 1 iterations
+MPC step: 347, status: 0, iterations: 1
+tracking error: 0.00907538
+Halpern ADMM converged in 1 iterations
+MPC step: 348, status: 0, iterations: 1
+tracking error: 0.00886936
+Halpern ADMM converged in 1 iterations
+MPC step: 349, status: 0, iterations: 1
+tracking error: 0.00866931
+Halpern ADMM converged in 1 iterations
+MPC step: 350, status: 0, iterations: 1
+tracking error: 0.00847513
+Halpern ADMM converged in 1 iterations
+MPC step: 351, status: 0, iterations: 1
+tracking error: 0.00828676
+Halpern ADMM converged in 1 iterations
+MPC step: 352, status: 0, iterations: 1
+tracking error: 0.00810413
+Halpern ADMM converged in 1 iterations
+MPC step: 353, status: 0, iterations: 1
+tracking error: 0.00792715
+Halpern ADMM converged in 1 iterations
+MPC step: 354, status: 0, iterations: 1
+tracking error: 0.00775575
+Halpern ADMM converged in 1 iterations
+MPC step: 355, status: 0, iterations: 1
+tracking error: 0.00758986
+Halpern ADMM converged in 1 iterations
+MPC step: 356, status: 0, iterations: 1
+tracking error: 0.00742939
+Halpern ADMM converged in 1 iterations
+MPC step: 357, status: 0, iterations: 1
+tracking error: 0.00727427
+Halpern ADMM converged in 1 iterations
+MPC step: 358, status: 0, iterations: 1
+tracking error: 0.00712441
+Halpern ADMM converged in 1 iterations
+MPC step: 359, status: 0, iterations: 1
+tracking error: 0.00697973
+Halpern ADMM converged in 1 iterations
+MPC step: 360, status: 0, iterations: 1
+tracking error: 0.00684015
+Halpern ADMM converged in 1 iterations
+MPC step: 361, status: 0, iterations: 1
+tracking error: 0.00670558
+Halpern ADMM converged in 1 iterations
+MPC step: 362, status: 0, iterations: 1
+tracking error: 0.00657593
+Halpern ADMM converged in 1 iterations
+MPC step: 363, status: 0, iterations: 1
+tracking error: 0.00645112
+Halpern ADMM converged in 1 iterations
+MPC step: 364, status: 0, iterations: 1
+tracking error: 0.00633105
+Halpern ADMM converged in 1 iterations
+MPC step: 365, status: 0, iterations: 1
+tracking error: 0.00621563
+Halpern ADMM converged in 1 iterations
+MPC step: 366, status: 0, iterations: 1
+tracking error: 0.00610476
+Halpern ADMM converged in 1 iterations
+MPC step: 367, status: 0, iterations: 1
+tracking error: 0.00599834
+Halpern ADMM converged in 1 iterations
+MPC step: 368, status: 0, iterations: 1
+tracking error: 0.00589628
+Halpern ADMM converged in 1 iterations
+MPC step: 369, status: 0, iterations: 1
+tracking error: 0.00579846
+Halpern ADMM converged in 1 iterations
+MPC step: 370, status: 0, iterations: 1
+tracking error: 0.00570479
+Halpern ADMM converged in 1 iterations
+MPC step: 371, status: 0, iterations: 1
+tracking error: 0.00561515
+Halpern ADMM converged in 1 iterations
+MPC step: 372, status: 0, iterations: 1
+tracking error: 0.00552944
+Halpern ADMM converged in 1 iterations
+MPC step: 373, status: 0, iterations: 1
+tracking error: 0.00544755
+Halpern ADMM converged in 1 iterations
+MPC step: 374, status: 0, iterations: 1
+tracking error: 0.00536936
+Halpern ADMM converged in 1 iterations
+MPC step: 375, status: 0, iterations: 1
+tracking error: 0.00529476
+Halpern ADMM converged in 1 iterations
+MPC step: 376, status: 0, iterations: 1
+tracking error: 0.00522363
+Halpern ADMM converged in 1 iterations
+MPC step: 377, status: 0, iterations: 1
+tracking error: 0.00515585
+Halpern ADMM converged in 1 iterations
+MPC step: 378, status: 0, iterations: 1
+tracking error: 0.00509131
+Halpern ADMM converged in 1 iterations
+MPC step: 379, status: 0, iterations: 1
+tracking error: 0.00502989
+Halpern ADMM converged in 1 iterations
+MPC step: 380, status: 0, iterations: 1
+tracking error: 0.00497147
+Halpern ADMM converged in 1 iterations
+MPC step: 381, status: 0, iterations: 1
+tracking error: 0.00491593
+Halpern ADMM converged in 1 iterations
+MPC step: 382, status: 0, iterations: 1
+tracking error: 0.00486315
+Halpern ADMM converged in 1 iterations
+MPC step: 383, status: 0, iterations: 1
+tracking error: 0.00481301
+Halpern ADMM converged in 1 iterations
+MPC step: 384, status: 0, iterations: 1
+tracking error: 0.00476539
+Halpern ADMM converged in 1 iterations
+MPC step: 385, status: 0, iterations: 1
+tracking error: 0.00472018
+Halpern ADMM converged in 1 iterations
+MPC step: 386, status: 0, iterations: 1
+tracking error: 0.00467726
+Halpern ADMM converged in 1 iterations
+MPC step: 387, status: 0, iterations: 1
+tracking error: 0.00463652
+Halpern ADMM converged in 1 iterations
+MPC step: 388, status: 0, iterations: 1
+tracking error: 0.00459784
+Halpern ADMM converged in 1 iterations
+MPC step: 389, status: 0, iterations: 1

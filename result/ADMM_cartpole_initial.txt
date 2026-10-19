@@ -1,0 +1,813 @@
+A = [    1,  0.01,     0,     0]
+[    0,     1, 0.039,     0]
+[    0,     0, 1.002,  0.01]
+[    0,     0, 0.458, 1.002]
+B = [    0]
+[ 0.02]
+[    0]
+[0.067]
+Q = [12,  0,  0,  0]
+[ 0,  3,  0,  0]
+[ 0,  0, 12,  0]
+[ 0,  0,  0,  3]
+R = [3]
+rho = 1
+Kinf converged after 454 iterations
+Kinf = [-1.828, -2.411,  20.67,  3.366]
+Pinf = [     1583,     885.7,     -2137,    -362.4]
+[    885.7,     947.8,     -2447,    -411.1]
+[    -2137,     -2447, 1.173e+04,      1764]
+[   -362.4,    -411.1,      1764,     292.4]
+Quu_inv = [0.2785]
+AmBKt = [       1,  0.03656,        0,   0.1225]
+[    0.01,    1.048,        0,   0.1615]
+[       0,  -0.3745,    1.002,  -0.9271]
+[       0, -0.06733,     0.01,   0.7765]
+APf = [0]
+[0]
+[0]
+[0]
+BPf = [0]
+
+Precomputation finished!
+
+tracking error: 0.5
+Solver converged in 7 iterations
+tracking error: 0.506197
+Solver converged in 4 iterations
+tracking error: 0.520255
+Solver converged in 4 iterations
+tracking error: 0.536895
+Solver converged in 4 iterations
+tracking error: 0.552995
+Solver converged in 4 iterations
+tracking error: 0.566924
+Solver converged in 4 iterations
+tracking error: 0.577971
+Solver converged in 4 iterations
+tracking error: 0.585961
+Solver converged in 4 iterations
+tracking error: 0.591025
+Solver converged in 4 iterations
+tracking error: 0.593447
+Solver converged in 4 iterations
+tracking error: 0.593587
+Solver converged in 4 iterations
+tracking error: 0.591831
+Solver converged in 4 iterations
+tracking error: 0.588558
+Solver converged in 4 iterations
+tracking error: 0.584127
+Solver converged in 4 iterations
+tracking error: 0.578864
+Solver converged in 4 iterations
+tracking error: 0.573063
+Solver converged in 4 iterations
+tracking error: 0.566979
+Solver converged in 3 iterations
+tracking error: 0.560839
+Solver converged in 3 iterations
+tracking error: 0.554816
+Solver converged in 3 iterations
+tracking error: 0.549058
+Solver converged in 3 iterations
+tracking error: 0.543682
+Solver converged in 3 iterations
+tracking error: 0.538776
+Solver converged in 3 iterations
+tracking error: 0.534401
+Solver converged in 3 iterations
+tracking error: 0.530595
+Solver converged in 3 iterations
+tracking error: 0.527375
+Solver converged in 3 iterations
+tracking error: 0.524741
+Solver converged in 3 iterations
+tracking error: 0.52268
+Solver converged in 3 iterations
+tracking error: 0.521165
+Solver converged in 3 iterations
+tracking error: 0.520161
+Solver converged in 3 iterations
+tracking error: 0.519629
+Solver converged in 3 iterations
+tracking error: 0.519523
+Solver converged in 3 iterations
+tracking error: 0.519796
+Solver converged in 3 iterations
+tracking error: 0.5204
+Solver converged in 3 iterations
+tracking error: 0.521287
+Solver converged in 3 iterations
+tracking error: 0.522412
+Solver converged in 3 iterations
+tracking error: 0.52373
+Solver converged in 3 iterations
+tracking error: 0.525201
+Solver converged in 3 iterations
+tracking error: 0.526785
+Solver converged in 3 iterations
+tracking error: 0.528449
+Solver converged in 3 iterations
+tracking error: 0.530161
+Solver converged in 3 iterations
+tracking error: 0.531892
+Solver converged in 3 iterations
+tracking error: 0.533617
+Solver converged in 3 iterations
+tracking error: 0.535314
+Solver converged in 3 iterations
+tracking error: 0.536964
+Solver converged in 3 iterations
+tracking error: 0.538551
+Solver converged in 3 iterations
+tracking error: 0.540059
+Solver converged in 3 iterations
+tracking error: 0.541478
+Solver converged in 3 iterations
+tracking error: 0.542796
+Solver converged in 3 iterations
+tracking error: 0.544007
+Solver converged in 3 iterations
+tracking error: 0.545102
+Solver converged in 3 iterations
+tracking error: 0.546078
+Solver converged in 3 iterations
+tracking error: 0.54693
+Solver converged in 3 iterations
+tracking error: 0.547656
+Solver converged in 3 iterations
+tracking error: 0.548253
+Solver converged in 3 iterations
+tracking error: 0.548721
+Solver converged in 3 iterations
+tracking error: 0.54906
+Solver converged in 3 iterations
+tracking error: 0.549269
+Solver converged in 3 iterations
+tracking error: 0.54935
+Solver converged in 3 iterations
+tracking error: 0.549304
+Solver converged in 3 iterations
+tracking error: 0.549132
+Solver converged in 3 iterations
+tracking error: 0.548837
+Solver converged in 3 iterations
+tracking error: 0.548421
+Solver converged in 3 iterations
+tracking error: 0.547887
+Solver converged in 3 iterations
+tracking error: 0.547237
+Solver converged in 3 iterations
+tracking error: 0.546473
+Solver converged in 3 iterations
+tracking error: 0.5456
+Solver converged in 3 iterations
+tracking error: 0.544618
+Solver converged in 3 iterations
+tracking error: 0.543533
+Solver converged in 3 iterations
+tracking error: 0.542346
+Solver converged in 3 iterations
+tracking error: 0.541061
+Solver converged in 3 iterations
+tracking error: 0.53968
+Solver converged in 3 iterations
+tracking error: 0.538207
+Solver converged in 3 iterations
+tracking error: 0.536644
+Solver converged in 3 iterations
+tracking error: 0.534995
+Solver converged in 3 iterations
+tracking error: 0.533262
+Solver converged in 3 iterations
+tracking error: 0.531448
+Solver converged in 2 iterations
+tracking error: 0.529553
+Solver converged in 3 iterations
+tracking error: 0.527585
+Solver converged in 2 iterations
+tracking error: 0.525543
+Solver converged in 2 iterations
+tracking error: 0.52343
+Solver converged in 2 iterations
+tracking error: 0.521251
+Solver converged in 2 iterations
+tracking error: 0.519006
+Solver converged in 2 iterations
+tracking error: 0.516699
+Solver converged in 2 iterations
+tracking error: 0.514333
+Solver converged in 2 iterations
+tracking error: 0.511908
+Solver converged in 2 iterations
+tracking error: 0.509428
+Solver converged in 2 iterations
+tracking error: 0.506893
+Solver converged in 2 iterations
+tracking error: 0.504308
+Solver converged in 2 iterations
+tracking error: 0.501673
+Solver converged in 2 iterations
+tracking error: 0.49899
+Solver converged in 2 iterations
+tracking error: 0.496262
+Solver converged in 2 iterations
+tracking error: 0.49349
+Solver converged in 2 iterations
+tracking error: 0.490676
+Solver converged in 2 iterations
+tracking error: 0.487822
+Solver converged in 2 iterations
+tracking error: 0.484929
+Solver converged in 2 iterations
+tracking error: 0.482
+Solver converged in 2 iterations
+tracking error: 0.479035
+Solver converged in 2 iterations
+tracking error: 0.476037
+Solver converged in 2 iterations
+tracking error: 0.473007
+Solver converged in 2 iterations
+tracking error: 0.469947
+Solver converged in 2 iterations
+tracking error: 0.466858
+Solver converged in 2 iterations
+tracking error: 0.463741
+Solver converged in 2 iterations
+tracking error: 0.460598
+Solver converged in 2 iterations
+tracking error: 0.45743
+Solver converged in 2 iterations
+tracking error: 0.454239
+Solver converged in 2 iterations
+tracking error: 0.451026
+Solver converged in 2 iterations
+tracking error: 0.447792
+Solver converged in 2 iterations
+tracking error: 0.444539
+Solver converged in 2 iterations
+tracking error: 0.441267
+Solver converged in 2 iterations
+tracking error: 0.437978
+Solver converged in 2 iterations
+tracking error: 0.434674
+Solver converged in 2 iterations
+tracking error: 0.431354
+Solver converged in 2 iterations
+tracking error: 0.428021
+Solver converged in 2 iterations
+tracking error: 0.424675
+Solver converged in 2 iterations
+tracking error: 0.421318
+Solver converged in 2 iterations
+tracking error: 0.41795
+Solver converged in 2 iterations
+tracking error: 0.414572
+Solver converged in 2 iterations
+tracking error: 0.411186
+Solver converged in 2 iterations
+tracking error: 0.407793
+Solver converged in 2 iterations
+tracking error: 0.404393
+Solver converged in 2 iterations
+tracking error: 0.400987
+Solver converged in 2 iterations
+tracking error: 0.397576
+Solver converged in 2 iterations
+tracking error: 0.394161
+Solver converged in 2 iterations
+tracking error: 0.390743
+Solver converged in 2 iterations
+tracking error: 0.387323
+Solver converged in 2 iterations
+tracking error: 0.383902
+Solver converged in 2 iterations
+tracking error: 0.38048
+Solver converged in 2 iterations
+tracking error: 0.377058
+Solver converged in 2 iterations
+tracking error: 0.373636
+Solver converged in 2 iterations
+tracking error: 0.370217
+Solver converged in 2 iterations
+tracking error: 0.3668
+Solver converged in 2 iterations
+tracking error: 0.363385
+Solver converged in 2 iterations
+tracking error: 0.359975
+Solver converged in 2 iterations
+tracking error: 0.356569
+Solver converged in 2 iterations
+tracking error: 0.353167
+Solver converged in 2 iterations
+tracking error: 0.349772
+Solver converged in 2 iterations
+tracking error: 0.346383
+Solver converged in 2 iterations
+tracking error: 0.343001
+Solver converged in 2 iterations
+tracking error: 0.339626
+Solver converged in 2 iterations
+tracking error: 0.336259
+Solver converged in 2 iterations
+tracking error: 0.332901
+Solver converged in 2 iterations
+tracking error: 0.329552
+Solver converged in 2 iterations
+tracking error: 0.326212
+Solver converged in 2 iterations
+tracking error: 0.322883
+Solver converged in 2 iterations
+tracking error: 0.319565
+Solver converged in 2 iterations
+tracking error: 0.316257
+Solver converged in 2 iterations
+tracking error: 0.312961
+Solver converged in 2 iterations
+tracking error: 0.309678
+Solver converged in 2 iterations
+tracking error: 0.306406
+Solver converged in 2 iterations
+tracking error: 0.303148
+Solver converged in 2 iterations
+tracking error: 0.299903
+Solver converged in 2 iterations
+tracking error: 0.296672
+Solver converged in 2 iterations
+tracking error: 0.293455
+Solver converged in 2 iterations
+tracking error: 0.290252
+Solver converged in 2 iterations
+tracking error: 0.287065
+Solver converged in 2 iterations
+tracking error: 0.283893
+Solver converged in 2 iterations
+tracking error: 0.280736
+Solver converged in 2 iterations
+tracking error: 0.277595
+Solver converged in 2 iterations
+tracking error: 0.27447
+Solver converged in 2 iterations
+tracking error: 0.271362
+Solver converged in 2 iterations
+tracking error: 0.268271
+Solver converged in 2 iterations
+tracking error: 0.265197
+Solver converged in 2 iterations
+tracking error: 0.262141
+Solver converged in 2 iterations
+tracking error: 0.259102
+Solver converged in 2 iterations
+tracking error: 0.256081
+Solver converged in 2 iterations
+tracking error: 0.253078
+Solver converged in 2 iterations
+tracking error: 0.250093
+Solver converged in 2 iterations
+tracking error: 0.247127
+Solver converged in 2 iterations
+tracking error: 0.24418
+Solver converged in 2 iterations
+tracking error: 0.241252
+Solver converged in 2 iterations
+tracking error: 0.238344
+Solver converged in 2 iterations
+tracking error: 0.235454
+Solver converged in 2 iterations
+tracking error: 0.232585
+Solver converged in 2 iterations
+tracking error: 0.229735
+Solver converged in 2 iterations
+tracking error: 0.226905
+Solver converged in 2 iterations
+tracking error: 0.224095
+Solver converged in 2 iterations
+tracking error: 0.221306
+Solver converged in 2 iterations
+tracking error: 0.218537
+Solver converged in 2 iterations
+tracking error: 0.215788
+Solver converged in 2 iterations
+tracking error: 0.21306
+Solver converged in 2 iterations
+tracking error: 0.210353
+Solver converged in 2 iterations
+tracking error: 0.207666
+Solver converged in 2 iterations
+tracking error: 0.205001
+Solver converged in 2 iterations
+tracking error: 0.202356
+Solver converged in 2 iterations
+tracking error: 0.199733
+Solver converged in 2 iterations
+tracking error: 0.197131
+Solver converged in 2 iterations
+tracking error: 0.19455
+Solver converged in 2 iterations
+tracking error: 0.191991
+Solver converged in 2 iterations
+tracking error: 0.189453
+Solver converged in 2 iterations
+tracking error: 0.186936
+Solver converged in 2 iterations
+tracking error: 0.184441
+Solver converged in 2 iterations
+tracking error: 0.181967
+Solver converged in 2 iterations
+tracking error: 0.179515
+Solver converged in 2 iterations
+tracking error: 0.177085
+Solver converged in 2 iterations
+tracking error: 0.174676
+Solver converged in 2 iterations
+tracking error: 0.172289
+Solver converged in 2 iterations
+tracking error: 0.169923
+Solver converged in 2 iterations
+tracking error: 0.167579
+Solver converged in 2 iterations
+tracking error: 0.165257
+Solver converged in 2 iterations
+tracking error: 0.162956
+Solver converged in 2 iterations
+tracking error: 0.160677
+Solver converged in 2 iterations
+tracking error: 0.15842
+Solver converged in 2 iterations
+tracking error: 0.156184
+Solver converged in 2 iterations
+tracking error: 0.153969
+Solver converged in 2 iterations
+tracking error: 0.151777
+Solver converged in 2 iterations
+tracking error: 0.149606
+Solver converged in 2 iterations
+tracking error: 0.147456
+Solver converged in 2 iterations
+tracking error: 0.145328
+Solver converged in 2 iterations
+tracking error: 0.143221
+Solver converged in 2 iterations
+tracking error: 0.141135
+Solver converged in 2 iterations
+tracking error: 0.139071
+Solver converged in 2 iterations
+tracking error: 0.137028
+Solver converged in 2 iterations
+tracking error: 0.135006
+Solver converged in 2 iterations
+tracking error: 0.133005
+Solver converged in 2 iterations
+tracking error: 0.131026
+Solver converged in 2 iterations
+tracking error: 0.129067
+Solver converged in 2 iterations
+tracking error: 0.127129
+Solver converged in 2 iterations
+tracking error: 0.125212
+Solver converged in 2 iterations
+tracking error: 0.123316
+Solver converged in 2 iterations
+tracking error: 0.12144
+Solver converged in 2 iterations
+tracking error: 0.119585
+Solver converged in 2 iterations
+tracking error: 0.117751
+Solver converged in 2 iterations
+tracking error: 0.115937
+Solver converged in 2 iterations
+tracking error: 0.114143
+Solver converged in 2 iterations
+tracking error: 0.112369
+Solver converged in 2 iterations
+tracking error: 0.110616
+Solver converged in 2 iterations
+tracking error: 0.108882
+Solver converged in 2 iterations
+tracking error: 0.107169
+Solver converged in 2 iterations
+tracking error: 0.105475
+Solver converged in 2 iterations
+tracking error: 0.103801
+Solver converged in 2 iterations
+tracking error: 0.102147
+Solver converged in 2 iterations
+tracking error: 0.100512
+Solver converged in 2 iterations
+tracking error: 0.0988966
+Solver converged in 2 iterations
+tracking error: 0.0973004
+Solver converged in 2 iterations
+tracking error: 0.0957234
+Solver converged in 2 iterations
+tracking error: 0.0941654
+Solver converged in 2 iterations
+tracking error: 0.0926263
+Solver converged in 2 iterations
+tracking error: 0.091106
+Solver converged in 2 iterations
+tracking error: 0.0896044
+Solver converged in 2 iterations
+tracking error: 0.0881214
+Solver converged in 2 iterations
+tracking error: 0.0866568
+Solver converged in 2 iterations
+tracking error: 0.0852105
+Solver converged in 2 iterations
+tracking error: 0.0837825
+Solver converged in 2 iterations
+tracking error: 0.0823724
+Solver converged in 2 iterations
+tracking error: 0.0809804
+Solver converged in 2 iterations
+tracking error: 0.0796061
+Solver converged in 2 iterations
+tracking error: 0.0782495
+Solver converged in 2 iterations
+tracking error: 0.0769104
+Solver converged in 2 iterations
+tracking error: 0.0755888
+Solver converged in 2 iterations
+tracking error: 0.0742844
+Solver converged in 2 iterations
+tracking error: 0.0729973
+Solver converged in 2 iterations
+tracking error: 0.0717271
+Solver converged in 2 iterations
+tracking error: 0.0704738
+Solver converged in 2 iterations
+tracking error: 0.0692373
+Solver converged in 2 iterations
+tracking error: 0.0680174
+Solver converged in 2 iterations
+tracking error: 0.0668139
+Solver converged in 2 iterations
+tracking error: 0.0656269
+Solver converged in 2 iterations
+tracking error: 0.064456
+Solver converged in 2 iterations
+tracking error: 0.0633012
+Solver converged in 2 iterations
+tracking error: 0.0621624
+Solver converged in 2 iterations
+tracking error: 0.0610393
+Solver converged in 2 iterations
+tracking error: 0.059932
+Solver converged in 2 iterations
+tracking error: 0.0588401
+Solver converged in 1 iterations
+tracking error: 0.0577637
+Solver converged in 2 iterations
+tracking error: 0.0567025
+Solver converged in 2 iterations
+tracking error: 0.0556564
+Solver converged in 1 iterations
+tracking error: 0.0546254
+Solver converged in 2 iterations
+tracking error: 0.0536091
+Solver converged in 1 iterations
+tracking error: 0.0526076
+Solver converged in 2 iterations
+tracking error: 0.0516207
+Solver converged in 1 iterations
+tracking error: 0.0506481
+Solver converged in 2 iterations
+tracking error: 0.0496899
+Solver converged in 1 iterations
+tracking error: 0.0487459
+Solver converged in 2 iterations
+tracking error: 0.0478159
+Solver converged in 1 iterations
+tracking error: 0.0468997
+Solver converged in 2 iterations
+tracking error: 0.0459974
+Solver converged in 1 iterations
+tracking error: 0.0451087
+Solver converged in 2 iterations
+tracking error: 0.0442334
+Solver converged in 1 iterations
+tracking error: 0.0433715
+Solver converged in 2 iterations
+tracking error: 0.0425229
+Solver converged in 1 iterations
+tracking error: 0.0416873
+Solver converged in 2 iterations
+tracking error: 0.0408647
+Solver converged in 1 iterations
+tracking error: 0.040055
+Solver converged in 2 iterations
+tracking error: 0.0392579
+Solver converged in 1 iterations
+tracking error: 0.0384734
+Solver converged in 2 iterations
+tracking error: 0.0377013
+Solver converged in 1 iterations
+tracking error: 0.0369416
+Solver converged in 2 iterations
+tracking error: 0.036194
+Solver converged in 1 iterations
+tracking error: 0.0354585
+Solver converged in 2 iterations
+tracking error: 0.0347349
+Solver converged in 1 iterations
+tracking error: 0.0340231
+Solver converged in 2 iterations
+tracking error: 0.033323
+Solver converged in 1 iterations
+tracking error: 0.0326344
+Solver converged in 2 iterations
+tracking error: 0.0319573
+Solver converged in 1 iterations
+tracking error: 0.0312914
+Solver converged in 2 iterations
+tracking error: 0.0306368
+Solver converged in 1 iterations
+tracking error: 0.0299932
+Solver converged in 2 iterations
+tracking error: 0.0293605
+Solver converged in 1 iterations
+tracking error: 0.0287386
+Solver converged in 2 iterations
+tracking error: 0.0281274
+Solver converged in 1 iterations
+tracking error: 0.0275268
+Solver converged in 2 iterations
+tracking error: 0.0269367
+Solver converged in 1 iterations
+tracking error: 0.0263569
+Solver converged in 2 iterations
+tracking error: 0.0257873
+Solver converged in 1 iterations
+tracking error: 0.0252279
+Solver converged in 2 iterations
+tracking error: 0.0246784
+Solver converged in 1 iterations
+tracking error: 0.0241389
+Solver converged in 2 iterations
+tracking error: 0.0236091
+Solver converged in 1 iterations
+tracking error: 0.023089
+Solver converged in 2 iterations
+tracking error: 0.0225784
+Solver converged in 1 iterations
+tracking error: 0.0220773
+Solver converged in 2 iterations
+tracking error: 0.0215855
+Solver converged in 1 iterations
+tracking error: 0.0211029
+Solver converged in 2 iterations
+tracking error: 0.0206295
+Solver converged in 1 iterations
+tracking error: 0.0201651
+Solver converged in 2 iterations
+tracking error: 0.0197096
+Solver converged in 1 iterations
+tracking error: 0.0192629
+Solver converged in 2 iterations
+tracking error: 0.018825
+Solver converged in 1 iterations
+tracking error: 0.0183956
+Solver converged in 2 iterations
+tracking error: 0.0179748
+Solver converged in 1 iterations
+tracking error: 0.0175624
+Solver converged in 2 iterations
+tracking error: 0.0171583
+Solver converged in 1 iterations
+tracking error: 0.0167625
+Solver converged in 2 iterations
+tracking error: 0.0163748
+Solver converged in 1 iterations
+tracking error: 0.0159952
+Solver converged in 2 iterations
+tracking error: 0.0156234
+Solver converged in 1 iterations
+tracking error: 0.0152596
+Solver converged in 1 iterations
+tracking error: 0.0149034
+Solver converged in 2 iterations
+tracking error: 0.014555
+Solver converged in 1 iterations
+tracking error: 0.0142143
+Solver converged in 1 iterations
+tracking error: 0.0138809
+Solver converged in 2 iterations
+tracking error: 0.013555
+Solver converged in 1 iterations
+tracking error: 0.0132365
+Solver converged in 1 iterations
+tracking error: 0.0129252
+Solver converged in 2 iterations
+tracking error: 0.0126211
+Solver converged in 1 iterations
+tracking error: 0.0123242
+Solver converged in 1 iterations
+tracking error: 0.0120341
+Solver converged in 2 iterations
+tracking error: 0.0117511
+Solver converged in 1 iterations
+tracking error: 0.011475
+Solver converged in 1 iterations
+tracking error: 0.0112055
+Solver converged in 2 iterations
+tracking error: 0.0109428
+Solver converged in 1 iterations
+tracking error: 0.0106868
+Solver converged in 1 iterations
+tracking error: 0.0104372
+Solver converged in 2 iterations
+tracking error: 0.0101941
+Solver converged in 1 iterations
+tracking error: 0.00995761
+Solver converged in 1 iterations
+tracking error: 0.00972724
+Solver converged in 2 iterations
+tracking error: 0.00950313
+Solver converged in 1 iterations
+tracking error: 0.00928537
+Solver converged in 1 iterations
+tracking error: 0.00907354
+Solver converged in 2 iterations
+tracking error: 0.00886774
+Solver converged in 1 iterations
+tracking error: 0.00866809
+Solver converged in 1 iterations
+tracking error: 0.00847414
+Solver converged in 2 iterations
+tracking error: 0.00828599
+Solver converged in 1 iterations
+tracking error: 0.00810377
+Solver converged in 1 iterations
+tracking error: 0.00792703
+Solver converged in 2 iterations
+tracking error: 0.00775585
+Solver converged in 1 iterations
+tracking error: 0.00759039
+Solver converged in 1 iterations
+tracking error: 0.00743017
+Solver converged in 1 iterations
+tracking error: 0.00727523
+Solver converged in 2 iterations
+tracking error: 0.00712561
+Solver converged in 1 iterations
+tracking error: 0.00698138
+Solver converged in 1 iterations
+tracking error: 0.00684208
+Solver converged in 1 iterations
+tracking error: 0.00670773
+Solver converged in 2 iterations
+tracking error: 0.00657833
+Solver converged in 1 iterations
+tracking error: 0.00645399
+Solver converged in 1 iterations
+tracking error: 0.00633421
+Solver converged in 1 iterations
+tracking error: 0.00621902
+Solver converged in 2 iterations
+tracking error: 0.0061084
+Solver converged in 1 iterations
+tracking error: 0.00600245
+Solver converged in 1 iterations
+tracking error: 0.00590068
+Solver converged in 1 iterations
+tracking error: 0.00580309
+Solver converged in 2 iterations
+tracking error: 0.00570966
+Solver converged in 1 iterations
+tracking error: 0.00562048
+Solver converged in 1 iterations
+tracking error: 0.00553506
+Solver converged in 1 iterations
+tracking error: 0.00545339
+Solver converged in 1 iterations
+tracking error: 0.0053754
+Solver converged in 2 iterations
+tracking error: 0.00530102
+Solver converged in 1 iterations
+tracking error: 0.00523033
+Solver converged in 1 iterations
+tracking error: 0.00516284
+Solver converged in 1 iterations
+tracking error: 0.00509851
+Solver converged in 1 iterations
+tracking error: 0.00503728
+Solver converged in 2 iterations
+tracking error: 0.00497905
+Solver converged in 1 iterations
+tracking error: 0.00492391
+Solver converged in 1 iterations
+tracking error: 0.00487138
+Solver converged in 1 iterations
+tracking error: 0.00482143
+Solver converged in 1 iterations
+tracking error: 0.00477397
+Solver converged in 2 iterations
+tracking error: 0.0047289
+Solver converged in 1 iterations
+tracking error: 0.00468634
+Solver converged in 1 iterations
+tracking error: 0.00464581
+Solver converged in 1 iterations
+tracking error: 0.00460728
+Solver converged in 1 iterations
