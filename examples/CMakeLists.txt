@@ -66,3 +66,16 @@ target_include_directories(quadcopter_mpc_benchmark
         "${CMAKE_SOURCE_DIR}/src/tinympc"
         "${CMAKE_SOURCE_DIR}/benchmarks/quadcopter"
 )
+
+# Append this to TinyMPC/examples/CMakeLists.txt
+# Assumes the modified TinyMPC src/tinympc/CMakeLists.txt already compiles
+# halpern_reflected.cpp into tinympcstatic (as in the uploaded src.zip).
+add_executable(quadcopter_singular_native
+    ${CMAKE_SOURCE_DIR}/benchmarks/quadcopter/quadcopter_singular_native.cpp)
+target_link_libraries(quadcopter_singular_native PRIVATE tinympcstatic)
+target_include_directories(quadcopter_singular_native PRIVATE
+    ${CMAKE_SOURCE_DIR}/src
+    ${CMAKE_SOURCE_DIR}/src/tinympc
+    ${CMAKE_SOURCE_DIR}/benchmarks/quadcopter
+    ${CMAKE_SOURCE_DIR}/include/Eigen
+)
