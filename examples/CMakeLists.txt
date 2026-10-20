@@ -35,3 +35,34 @@ target_link_libraries(codegen_cartpole LINK_PUBLIC tinympcstatic)
 if(MINGW)
     target_link_libraries(codegen_cartpole LINK_PUBLIC "stdc++fs")
 endif(MINGW)
+
+# Random MPC: ADMM vs reflected Halpern fixed restart
+add_executable(random_mpc_toy_benchmark
+    ${CMAKE_SOURCE_DIR}/benchmarks/random_mpc/random_mpc_toy_benchmark.cpp
+)
+
+target_link_libraries(random_mpc_toy_benchmark
+    PRIVATE tinympcstatic
+)
+
+target_include_directories(random_mpc_toy_benchmark
+    PRIVATE
+        "${MPC_BENCH_PROBLEM_DIR}"
+        "${CMAKE_SOURCE_DIR}/src/tinympc"
+)
+
+# Quadcopter: ADMM vs reflected Halpern restart
+add_executable(quadcopter_mpc_benchmark
+    ${CMAKE_SOURCE_DIR}/benchmarks/quadcopter/quadcopter_mpc_benchmark.cpp
+)
+
+target_link_libraries(quadcopter_mpc_benchmark
+    PRIVATE tinympcstatic
+)
+
+target_include_directories(quadcopter_mpc_benchmark
+    PRIVATE
+        "${CMAKE_SOURCE_DIR}/src"
+        "${CMAKE_SOURCE_DIR}/src/tinympc"
+        "${CMAKE_SOURCE_DIR}/benchmarks/quadcopter"
+)
