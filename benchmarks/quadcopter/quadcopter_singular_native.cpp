@@ -52,6 +52,8 @@ ProblemData make_problem(const std::string& name) {
         p.xmax(2) = tinytype(0.8); // yaw target 1, ceiling 0.8
     } else if (name == "yaw_cap_020") {
         p.xmax(2) = tinytype(0.2);
+    } else if (name == "yaw_cap_015") {
+        p.xmax(2) = tinytype(0.15);
     } else if (name == "yaw_height_singular" ||
                name == "yaw_height_low" ||
                name == "yaw_fixed_zero") {
