@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/test_code.py
+tinympc/__init__.py
+tinympc/tinympc.py
+tinympc.egg-info/PKG-INFO
+tinympc.egg-info/SOURCES.txt
+tinympc.egg-info/dependency_links.txt
+tinympc.egg-info/top_level.txt
